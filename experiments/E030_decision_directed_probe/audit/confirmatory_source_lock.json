@@ -1,0 +1,13 @@
+{
+  "status": "confirmatory_source_locked_before_candidate_selection_and_confirmatory_generation",
+  "source_sha256": {
+    "generate_confirmatory.py": "35f8a0dc973749cbc213d5f1c7d0a2af83212a74150d1efa48c125063313295b",
+    "fit_and_freeze.py": "c05d206819c64644c004099a528ba0ab2dd6c0b7ce1d928a213bd4acc42ce69a",
+    "plan_and_freeze.py": "65f79cff85f3f37fe7f48c94bd743dfd70263f64b59d0c4c64146f15460f2253",
+    "evaluate.py": "fca0088fca4bdcedbee577c1443a3682b13f4f41b5ba0ecc3536e71ea1604c7b"
+  },
+  "amendment_sha256": "3f156ca9268635375a38a2c371e7cf614064f0dbdd07f94fe2700a621170f913",
+  "candidate_selection_available": false,
+  "confirmatory_data_generated": false,
+  "test_targets_accessed": false
+}

@@ -1,0 +1,10 @@
+mujoco==3.12.0
+mujoco-mjx==3.12.0
+jax==0.11.1
+jaxlib==0.11.1
+numpy==2.4.6
+scipy==1.15.3
+scikit-learn==1.6.1
+joblib==1.6.0
+matplotlib==3.11.2
+pytest==8.4.2

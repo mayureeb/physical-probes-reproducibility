@@ -1,0 +1,57 @@
+{
+  "status": "direct_simulator_fit_evaluated",
+  "worlds": 2048,
+  "primary": {
+    "direct_completion": 0.3193359375,
+    "inherited_completion": 0.306640625,
+    "difference": 0.0126953125,
+    "bootstrap_95_interval": [
+      -0.00439453125,
+      0.02978515625
+    ],
+    "discordant_worlds": 304,
+    "direct_only": 165,
+    "exact_two_sided_p": 0.151497265738138
+  },
+  "directional_improvement_confirmed": false,
+  "descriptive": {
+    "inherited": {
+      "completion": 0.306640625,
+      "mean_landing_error_m": 0.15134580433368683
+    },
+    "direct": {
+      "completion": 0.3193359375,
+      "mean_landing_error_m": 0.1347644329071045
+    }
+  },
+  "state_estimation": {
+    "inherited": {
+      "parameter_nmse": 0.6116132736206055,
+      "per_parameter_rmse": {
+        "mass": 0.00821722112596035,
+        "mu": 0.04626963287591934,
+        "damping": 0.03045189566910267,
+        "gain": 0.3204769492149353,
+        "strength": 0.11272101104259491,
+        "tau1": 0.052455127239227295,
+        "tau2": 0.3212709128856659,
+        "mix": 0.12170669436454773
+      }
+    },
+    "direct": {
+      "parameter_nmse": 0.6000702381134033,
+      "per_parameter_rmse": {
+        "mass": 0.0026310128159821033,
+        "mu": 0.04638545960187912,
+        "damping": 0.030397465452551842,
+        "gain": 0.1377275288105011,
+        "strength": 0.10301777720451355,
+        "tau1": 0.04931448772549629,
+        "tau2": 0.32760486006736755,
+        "mix": 0.12209611386060715
+      }
+    }
+  },
+  "action_artifact_sha256": "94524d64c5b9b93523fa14c2a60b848bf7716de4890cff02c5950837c11af893",
+  "target_sha256": "2cddbe8a4b2467286c18bb3e2dba8eee3266f871d528c480c6488fb65f04da37"
+}

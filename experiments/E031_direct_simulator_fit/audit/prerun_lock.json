@@ -1,0 +1,14 @@
+{
+  "status": "prospective_source_lock",
+  "fresh_data_generated": false,
+  "test_targets_accessed": false,
+  "source_sha256": {
+    "PROTOCOL.md": "747ddd7229c455de1a5b4b42ddc129c6009e4805ea6c0a74b8d6c0b632646878",
+    "prototype_fit.py": "3903ef5e6ad13add3a119d8619c75cb5baa8092495f794b16d547f39df6de855",
+    "generate_data.py": "6b650979c939c230fb1fec8755fbafdc04286ea303082c42ade9fcedaa1f8424",
+    "fit_and_freeze.py": "1bf24325e9f6bea8d91c2b464b7db7f364994a6655db1b03d97c12416a848feb",
+    "plan_and_freeze.py": "237f9699b37eb35928eb077bf2bb4841ed425d1f00a3e60623e31078f911ab20",
+    "evaluate.py": "9b6d02b68b31f4dcd448c731fc330b285ef42ea259335af1f63c0407d4472f58",
+    "lock_protocol.py": "e53341d3aacfa4ec2f6ea2c74755382ae418ab8fc69371ea461a8341f3e7bd99"
+  }
+}

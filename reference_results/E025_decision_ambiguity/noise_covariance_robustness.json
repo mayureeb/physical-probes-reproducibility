@@ -1,0 +1,76 @@
+{
+  "status": "prespecified_secondary_analysis_after_primary_evaluation",
+  "bootstrap_seed": 2502502,
+  "bootstrap_replicates": 20000,
+  "covariance_conditions": {
+    "rho_0.0": {
+      "spearman": 0.10125191177037776,
+      "ci95": [
+        0.047123397644801494,
+        0.1543962911306215
+      ],
+      "per_probe_ambiguity_mean": {
+        "passive": 0.5,
+        "fixed_positive_first": 0.0011089315893319904,
+        "half_then_full_forward": 0.002356183534098503,
+        "fixed_negative_first": 0.0011089315893319904,
+        "multisine": 0.0013413549149561559,
+        "random_piecewise": 0.0004366345779423048
+      },
+      "per_probe_fraction_at_least_0p10": {
+        "passive": 1.0,
+        "fixed_positive_first": 0.00390625,
+        "half_then_full_forward": 0.0078125,
+        "fixed_negative_first": 0.00390625,
+        "multisine": 0.00390625,
+        "random_piecewise": 0.0
+      }
+    },
+    "rho_0.4": {
+      "spearman": 0.09601088105958175,
+      "ci95": [
+        0.04306735976005407,
+        0.14914318780129268
+      ],
+      "per_probe_ambiguity_mean": {
+        "passive": 0.5,
+        "fixed_positive_first": 0.0012524462237315597,
+        "half_then_full_forward": 0.0017634656431420727,
+        "fixed_negative_first": 0.0012524462237315597,
+        "multisine": 0.0010433435459023988,
+        "random_piecewise": 0.00012988528802438475
+      },
+      "per_probe_fraction_at_least_0p10": {
+        "passive": 1.0,
+        "fixed_positive_first": 0.00390625,
+        "half_then_full_forward": 0.0078125,
+        "fixed_negative_first": 0.00390625,
+        "multisine": 0.00390625,
+        "random_piecewise": 0.0
+      }
+    },
+    "rho_0.8": {
+      "spearman": 0.0917551012800169,
+      "ci95": [
+        0.04004063238427758,
+        0.14406418041828173
+      ],
+      "per_probe_ambiguity_mean": {
+        "passive": 0.5,
+        "fixed_positive_first": 0.0004869677387414721,
+        "half_then_full_forward": 0.000615991309052892,
+        "fixed_negative_first": 0.0004869677387414721,
+        "multisine": 0.0001832689914349409,
+        "random_piecewise": 2.5174360015612685e-07
+      },
+      "per_probe_fraction_at_least_0p10": {
+        "passive": 1.0,
+        "fixed_positive_first": 0.00390625,
+        "half_then_full_forward": 0.00390625,
+        "fixed_negative_first": 0.00390625,
+        "multisine": 0.0,
+        "random_piecewise": 0.0
+      }
+    }
+  }
+}

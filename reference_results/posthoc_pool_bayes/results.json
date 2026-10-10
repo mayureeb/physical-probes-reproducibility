@@ -1,0 +1,76 @@
+{
+  "status": "posthoc_finite_pool_bayes",
+  "reference_worlds": 5120,
+  "same_goal_candidates": 160,
+  "test_worlds": 2048,
+  "probes": {
+    "decision_directed": {
+      "comparison": {
+        "pool_bayes_completion": 0.1396484375,
+        "extra_trees_completion": 0.19921875,
+        "difference": -0.0595703125,
+        "bootstrap_95_interval": [
+          -0.0810546875,
+          -0.0380859375
+        ],
+        "discordant_worlds": 518,
+        "pool_bayes_only": 198,
+        "exact_two_sided_p": 9.283061851947932e-08
+      },
+      "mean_claimed_posterior_success_mass": 0.9986713528633118,
+      "median_effective_pool_size": 1.0,
+      "median_maximum_posterior_weight": 1.0
+    },
+    "d_optimal": {
+      "comparison": {
+        "pool_bayes_completion": 0.14453125,
+        "extra_trees_completion": 0.16162109375,
+        "difference": -0.01708984375,
+        "bootstrap_95_interval": [
+          -0.03857421875,
+          0.00390625
+        ],
+        "discordant_worlds": 499,
+        "pool_bayes_only": 232,
+        "exact_two_sided_p": 0.1279129719915586
+      },
+      "mean_claimed_posterior_success_mass": 0.9987635612487793,
+      "median_effective_pool_size": 1.0,
+      "median_maximum_posterior_weight": 1.0
+    },
+    "fixed_positive_first": {
+      "comparison": {
+        "pool_bayes_completion": 0.15234375,
+        "extra_trees_completion": 0.2294921875,
+        "difference": -0.0771484375,
+        "bootstrap_95_interval": [
+          -0.09912109375,
+          -0.0546875
+        ],
+        "discordant_worlds": 558,
+        "pool_bayes_only": 200,
+        "exact_two_sided_p": 2.2245668008559773e-11
+      },
+      "mean_claimed_posterior_success_mass": 0.9976180791854858,
+      "median_effective_pool_size": 1.0,
+      "median_maximum_posterior_weight": 1.0
+    },
+    "fixed_negative_first": {
+      "comparison": {
+        "pool_bayes_completion": 0.14990234375,
+        "extra_trees_completion": 0.22998046875,
+        "difference": -0.080078125,
+        "bootstrap_95_interval": [
+          -0.10302734375,
+          -0.0576171875
+        ],
+        "discordant_worlds": 584,
+        "pool_bayes_only": 210,
+        "exact_two_sided_p": 1.128617904446581e-11
+      },
+      "mean_claimed_posterior_success_mass": 0.9969040155410767,
+      "median_effective_pool_size": 1.0,
+      "median_maximum_posterior_weight": 1.0
+    }
+  }
+}

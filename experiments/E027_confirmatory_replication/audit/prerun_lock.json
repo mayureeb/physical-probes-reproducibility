@@ -1,0 +1,19 @@
+{
+  "status": "locked_before_fresh_world_generation",
+  "locked_at_utc": "2026-09-10T06:08:56Z",
+  "test_seed": 27227,
+  "test_worlds": 4096,
+  "bootstrap_replicates": 20000,
+  "bootstrap_seed": 2722701,
+  "sha256": {
+    "PROTOCOL.md": "f7dcfa031e94d7cbaca196be78afa42ff2ca470cde41a5f42427602b1cc46494",
+    "generate_fresh_test.py": "9078d37a55857282105233de77d7bd083a41a5c8938d4209f539ea64b9dbd827",
+    "fit_predict.py": "6d601071542e47425ace4e7165d73ab471b99ef8ea30b035565dc27af24ec592",
+    "evaluate_confirmatory.py": "660febf4a251fff5de26f918854e69b8bbf62e91c5d9a6613fb3e9cf8dd715ab",
+    "source_build_data.py": "1beeccf7fbb80cecff3ce875bf2eda00ec247f4fdd66a03a9e1a742c5c63b209",
+    "source_evaluate.py": "5410cd2c9dac92e0dcd0bdada0b322bc38763637d75bacfe4f6586ac874ad0ae",
+    "frozen_classical.joblib": "53ac23d45544affabde40464cb66fab919a8a425251163d92d0e96299059828b",
+    "calibration.npz": "06393f6947d3c5c92192f0afb0beeb8426fc072db4945cb2c6644c8cc3e19d39",
+    "validation.npz": "f4adceda5a7e3631914714f769cd7722059aeb9227f472d09fe7d74be597f156"
+  }
+}

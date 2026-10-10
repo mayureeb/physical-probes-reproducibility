@@ -1,0 +1,3021 @@
+{
+  "status": "metadata_only_pre_modeling_catalog",
+  "upstream_repository": "https://github.com/castacks/tartan_drive_2.0",
+  "upstream_commit": "fe893b9b4132bfbd30ba84a839872b3a855e8176",
+  "index_url": "https://raw.githubusercontent.com/castacks/tartan_drive_2.0/fe893b9b4132bfbd30ba84a839872b3a855e8176/assets/files.yaml",
+  "index_sha256": "7da5d791b163c40501a4e047e9da57b097dc1b2e1b41f4b6a353e93b1b61f1e1",
+  "run_count": 79,
+  "failure_count": 0,
+  "total_duration_seconds": 26850.922475,
+  "runs": [
+    {
+      "run": "2023-10-26-14-42-35_turnpike_afternoon_fall",
+      "duration_seconds": 1160.726426,
+      "average_speed_mps": 5.803073311238344,
+      "top_speed_mps": 14.573705095413729,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "afternoon",
+        "cloudy"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "2023-10-26-15-32-25_turnpike_warehouse_fall",
+      "duration_seconds": 442.118913,
+      "average_speed_mps": 5.278579769712381,
+      "top_speed_mps": 12.49086188222475,
+      "course": [
+        "turnpike",
+        "figure_8",
+        "gupta",
+        "rough_rider"
+      ],
+      "conditions": [
+        "afternoon",
+        "cloudy"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Sam",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "2023-11-02-16-00-43_down_meadows",
+      "duration_seconds": 290.105582,
+      "average_speed_mps": 2.6675689215665024,
+      "top_speed_mps": 6.86748826199785,
+      "course": [
+        "turnpike",
+        "meadows"
+      ],
+      "conditions": [
+        "afternoon",
+        "sunny"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "2023-11-14-14-24-21_gupta",
+      "duration_seconds": 70.171025,
+      "average_speed_mps": 3.1833566982658317,
+      "top_speed_mps": 8.151904883417666,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "afternoon",
+        "sunny"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Wenshan",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "2023-11-14-14-26-22_gupta",
+      "duration_seconds": 172.64479,
+      "average_speed_mps": 5.2178012596012096,
+      "top_speed_mps": 9.302992851447387,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "afternoon",
+        "sunny"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Wenshan",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "2023-11-14-14-34-53_gupta",
+      "duration_seconds": 263.091484,
+      "average_speed_mps": 4.286575692161244,
+      "top_speed_mps": 7.750804471692222,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "afternoon",
+        "sunny"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Wenshan",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "2023-11-14-14-45-20_gupta",
+      "duration_seconds": 164.017324,
+      "average_speed_mps": 3.1876467545013467,
+      "top_speed_mps": 6.973480973694436,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "afternoon",
+        "sunny"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Wenshan",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "2023-11-14-14-52-22_gupta",
+      "duration_seconds": 335.448919,
+      "average_speed_mps": 4.216778861596209,
+      "top_speed_mps": 9.814824390252165,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "afternoon",
+        "sunny"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "2023-11-14-15-02-21_figure_8",
+      "duration_seconds": 509.274712,
+      "average_speed_mps": 5.142221935138139,
+      "top_speed_mps": 11.249924279973447,
+      "course": [
+        "figure_8"
+      ],
+      "conditions": [
+        "afternoon",
+        "sunny"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Wenshan",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "2023-11-14-15-11-49_rough_rider_turnpike_loop",
+      "duration_seconds": 468.302692,
+      "average_speed_mps": 5.153991577729805,
+      "top_speed_mps": 11.768346319846824,
+      "course": [
+        "rough_rider",
+        "turnpike"
+      ],
+      "conditions": [
+        "afternoon",
+        "sunny"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Wenshan",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "2023-11-14-15-22-01_figure_8",
+      "duration_seconds": 250.020744,
+      "average_speed_mps": 3.854988062124806,
+      "top_speed_mps": 7.574194745406974,
+      "course": [
+        "figure_8"
+      ],
+      "conditions": [
+        "afternoon",
+        "sunny"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "figure_8_2023-09-13-17-07-51",
+      "duration_seconds": 536.567883,
+      "average_speed_mps": 3.666916198994649,
+      "top_speed_mps": 6.909597964013766,
+      "course": [
+        "figure_8"
+      ],
+      "conditions": [
+        "early_evening",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Andrew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "multisense",
+        "velodyne_1",
+        "novatel",
+        "velodyne_2"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "figure_8_2023-09-13-17-23-35",
+      "duration_seconds": 33.537555,
+      "average_speed_mps": 0.03422032438214855,
+      "top_speed_mps": 0.06321298701517115,
+      "course": [
+        "figure_8"
+      ],
+      "conditions": [
+        "early_evening",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Andrew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "figure_8_2023-09-13-17-24-26",
+      "duration_seconds": 748.8511589999999,
+      "average_speed_mps": 3.923830269134014,
+      "top_speed_mps": 9.07708929806018,
+      "course": [
+        "figure_8"
+      ],
+      "conditions": [
+        "early_evening",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Andrew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "figure_8_2023-09-14-11-37-49",
+      "duration_seconds": 361.531746,
+      "average_speed_mps": 2.2035206899168815,
+      "top_speed_mps": 5.540420916144322,
+      "course": [
+        "figure_8",
+        "meadows"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "figure_8_2023-09-14-12-48-02",
+      "duration_seconds": 494.359706,
+      "average_speed_mps": 4.609015606249331,
+      "top_speed_mps": 9.29774788641963,
+      "course": [
+        "figure_8"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "multisense",
+        "velodyne_1",
+        "novatel",
+        "velodyne_2"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "figure_8_morning_2023-09-12-10-28-04",
+      "duration_seconds": 10.854907,
+      "average_speed_mps": 0.005121463815414906,
+      "top_speed_mps": 0.008271577371804464,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "morning",
+        "dry",
+        "sunny"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "figure_8_morning_2023-09-12-10-37-17",
+      "duration_seconds": 1667.987779,
+      "average_speed_mps": 5.415007681967699,
+      "top_speed_mps": 11.941447867666964,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "morning",
+        "dry",
+        "sunny"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "figure_8_morning_slow_2023-09-12-11-06-32",
+      "duration_seconds": 1698.8340070000002,
+      "average_speed_mps": 3.3028099635708,
+      "top_speed_mps": 5.302534969449073,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "figure_8_to_turnpike_2023-09-12-12-22-45",
+      "duration_seconds": 300.412747,
+      "average_speed_mps": 3.9306455701393945,
+      "top_speed_mps": 10.083687716037993,
+      "course": [
+        "figure_8",
+        "rough_rider",
+        "turnpike"
+      ],
+      "conditions": [
+        "midday",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "figure_8_to_turnpike_pt2_2023-09-12-12-28-48",
+      "duration_seconds": 304.80697299999997,
+      "average_speed_mps": 5.450711131704756,
+      "top_speed_mps": 13.835534212007905,
+      "course": [
+        "figure_8",
+        "rough_rider",
+        "turnpike"
+      ],
+      "conditions": [
+        "midday",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "figure_8_turnpike_2023-09-13-17-40-27",
+      "duration_seconds": 353.185557,
+      "average_speed_mps": 3.6169244259687807,
+      "top_speed_mps": 6.776586999899695,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "evening",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "figure_8_turnpike_2023-09-13-17-47-52",
+      "duration_seconds": 59.438286,
+      "average_speed_mps": 0.29190682627923353,
+      "top_speed_mps": 3.4915703768887143,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "evening",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "gupta_2023-09-13-16-57-23",
+      "duration_seconds": 332.706541,
+      "average_speed_mps": 2.9526563219604682,
+      "top_speed_mps": 7.091328503426527,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "early_evening",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Andrew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "multisense",
+        "velodyne_1",
+        "novatel",
+        "velodyne_2"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "gupta_2023-09-14-10-44-56",
+      "duration_seconds": 4.422324,
+      "average_speed_mps": 0.05130422050080009,
+      "top_speed_mps": 0.06466984112212584,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "gupta_2023-09-14-10-46-16",
+      "duration_seconds": 11.564827,
+      "average_speed_mps": 0.015116368386140762,
+      "top_speed_mps": 0.036335020929956156,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "gupta_2023-09-14-10-47-09",
+      "duration_seconds": 781.297351,
+      "average_speed_mps": 3.977197954997362,
+      "top_speed_mps": 9.006547506663997,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "gupta_2023-09-14-11-12-19",
+      "duration_seconds": 936.782888,
+      "average_speed_mps": 2.750042330549336,
+      "top_speed_mps": 7.368989350107034,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "gupta_2023-09-14-14-18-15",
+      "duration_seconds": 4.92198,
+      "average_speed_mps": 0.022097370180598458,
+      "top_speed_mps": 0.044945408142268696,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "afternoon",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "gupta_skydio_2023-09-14-11-03-09",
+      "duration_seconds": 266.079745,
+      "average_speed_mps": 1.9267607770733972,
+      "top_speed_mps": 6.759196048223686,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "gupta_warehouse_2023-09-13-19-12-49",
+      "duration_seconds": 103.848099,
+      "average_speed_mps": 5.087797426400795,
+      "top_speed_mps": 8.896639620357934,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "evening",
+        "sunset",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "meadow_turnpike_2023-09-14-13-35-35",
+      "duration_seconds": 426.292367,
+      "average_speed_mps": 4.697354614420287,
+      "top_speed_mps": 15.359843926524455,
+      "course": [
+        "turnpike",
+        "meadow"
+      ],
+      "conditions": [
+        "afternoon",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "multisense",
+        "velodyne_1",
+        "novatel",
+        "velodyne_2"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "meadows_2023-09-14-11-45-21",
+      "duration_seconds": 40.852915,
+      "average_speed_mps": 1.9039747502798168,
+      "top_speed_mps": 3.5499315161816507,
+      "course": [
+        "figure_8",
+        "meadows"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "meadows_2023-09-14-12-05-05",
+      "duration_seconds": 56.588851,
+      "average_speed_mps": 1.5144835921200537,
+      "top_speed_mps": 2.668524166136538,
+      "course": [
+        "figure_8",
+        "meadows"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "meadows_2023-09-14-12-07-28",
+      "duration_seconds": 62.346339,
+      "average_speed_mps": 2.0236475155902878,
+      "top_speed_mps": 3.3577266085366095,
+      "course": [
+        "figure_8",
+        "meadows"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "meadows_2023-09-14-12-08-57",
+      "duration_seconds": 455.477565,
+      "average_speed_mps": 1.7467495761252267,
+      "top_speed_mps": 4.123069819005175,
+      "course": [
+        "figure_8",
+        "meadows"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "meadows_2023-09-14-12-17-25",
+      "duration_seconds": 30.722379,
+      "average_speed_mps": 0.6978414558518473,
+      "top_speed_mps": 1.912086665235936,
+      "course": [
+        "figure_8",
+        "meadows"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "meadows_2023-09-14-12-18-22",
+      "duration_seconds": 226.969089,
+      "average_speed_mps": 2.680442844289633,
+      "top_speed_mps": 6.349179377053915,
+      "course": [
+        "figure_8",
+        "meadows"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "rough_rider_2023-09-14-12-57-00",
+      "duration_seconds": 779.974653,
+      "average_speed_mps": 4.14038213082373,
+      "top_speed_mps": 10.668376446589498,
+      "course": [
+        "rough_rider",
+        "turnpike"
+      ],
+      "conditions": [
+        "afternoon",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "multisense",
+        "velodyne_1",
+        "novatel",
+        "velodyne_2"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "sam_loop_2023-09-27-12-41-22",
+      "duration_seconds": 2.683545,
+      "average_speed_mps": 0.04933517895608843,
+      "top_speed_mps": 0.06480621642099507,
+      "course": [
+        "figure_8",
+        "rough_rider",
+        "turnpike"
+      ],
+      "conditions": [
+        "afternoon",
+        "sunny",
+        "damp"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Sam",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "sam_loop_2023-09-27-12-42-17",
+      "duration_seconds": 33.048645,
+      "average_speed_mps": 0.01739097420434548,
+      "top_speed_mps": 0.03816938871049967,
+      "course": [
+        "figure_8",
+        "rough_rider",
+        "turnpike"
+      ],
+      "conditions": [
+        "afternoon",
+        "sunny",
+        "damp"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Sam",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "sam_loop_2023-09-27-13-04-54",
+      "duration_seconds": 1042.8256800000001,
+      "average_speed_mps": 5.433538508075936,
+      "top_speed_mps": 10.138548283069206,
+      "course": [
+        "figure_8",
+        "rough_rider",
+        "turnpike"
+      ],
+      "conditions": [
+        "afternoon",
+        "sunny",
+        "damp"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Sam",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "slag_heap_2023-09-14-12-23-05",
+      "duration_seconds": 172.387657,
+      "average_speed_mps": 1.2588750871141752,
+      "top_speed_mps": 2.4411147574133967,
+      "course": [
+        "slag_heap"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry",
+        "4wd"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "slag_heap_skydio_2023-09-14-12-32-13",
+      "duration_seconds": 193.8395,
+      "average_speed_mps": 0.6020875371217108,
+      "top_speed_mps": 2.2826766741289544,
+      "course": [
+        "slag_heap"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry",
+        "4wd"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "slag_heap_skydio_2023-09-14-12-36-46",
+      "duration_seconds": 40.653844,
+      "average_speed_mps": 0.553679099188157,
+      "top_speed_mps": 1.7607206141473721,
+      "course": [
+        "slag_heap"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry",
+        "4wd"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "slag_heap_skydio_2023-09-14-12-38-57",
+      "duration_seconds": 15.131078,
+      "average_speed_mps": 0.026143953119348074,
+      "top_speed_mps": 0.052338356520758744,
+      "course": [
+        "slag_heap"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry",
+        "4wd"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "multisense",
+        "velodyne_1",
+        "novatel",
+        "velodyne_2"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "slag_heap_skydio_2023-09-14-12-39-40",
+      "duration_seconds": 79.811155,
+      "average_speed_mps": 0.8175143229716099,
+      "top_speed_mps": 2.332908437263576,
+      "course": [
+        "slag_heap"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry",
+        "4wd"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "multisense",
+        "velodyne_1",
+        "novatel",
+        "velodyne_2"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "trash_2023-09-14-12-03-21",
+      "duration_seconds": 11.140745,
+      "average_speed_mps": 0.006591954466105005,
+      "top_speed_mps": 0.009178208731365876,
+      "course": [
+        "figure_8",
+        "meadows"
+      ],
+      "conditions": [
+        "morning",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "turnpike_2023-09-12-12-39-19",
+      "duration_seconds": 177.88594799999998,
+      "average_speed_mps": 7.4455138068979725,
+      "top_speed_mps": 10.90532853065563,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "midday",
+        "sunny",
+        "partly_cloudy",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "turnpike_2023-09-12-12-42-49",
+      "duration_seconds": 234.566175,
+      "average_speed_mps": 3.4565691609142597,
+      "top_speed_mps": 8.361014645794215,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "midday",
+        "sunny",
+        "partly_cloudy",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "turnpike_2023-09-12-12-47-34",
+      "duration_seconds": 94.050895,
+      "average_speed_mps": 3.482104191138456,
+      "top_speed_mps": 6.775951440166213,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "midday",
+        "sunny",
+        "partly_cloudy",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "turnpike_2023-09-12-12-53-32",
+      "duration_seconds": 872.738564,
+      "average_speed_mps": 4.992451788556744,
+      "top_speed_mps": 9.900667525933606,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "midday",
+        "sunny",
+        "partly_cloudy",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "turnpike_2023-09-13-17-59-09",
+      "duration_seconds": 34.631924,
+      "average_speed_mps": 0.01990962912407601,
+      "top_speed_mps": 0.04797502016747057,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "evening",
+        "sunset",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "turnpike_2023-09-13-18-09-45",
+      "duration_seconds": 270.274554,
+      "average_speed_mps": 6.248062510589215,
+      "top_speed_mps": 9.69646246110112,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "evening",
+        "sunset",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "turnpike_2023-09-13-18-15-03",
+      "duration_seconds": 732.435558,
+      "average_speed_mps": 4.667564311287777,
+      "top_speed_mps": 15.006556079340918,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "evening",
+        "sunset",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "turnpike_2023-09-13-18-37-40",
+      "duration_seconds": 278.885692,
+      "average_speed_mps": 3.742480442679922,
+      "top_speed_mps": 8.120652869621582,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "evening",
+        "sunset",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Andrew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "multisense",
+        "velodyne_1",
+        "novatel",
+        "velodyne_2"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "turnpike_2023-09-13-18-42-57",
+      "duration_seconds": 576.21464,
+      "average_speed_mps": 4.655106077177649,
+      "top_speed_mps": 9.792890518476328,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "evening",
+        "sunset",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Andrew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "multisense",
+        "velodyne_1",
+        "novatel",
+        "velodyne_2"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "turnpike_2023-09-14-13-20-40",
+      "duration_seconds": 757.64259,
+      "average_speed_mps": 2.722997283790878,
+      "top_speed_mps": 8.369570440496227,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "afternoon",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "multisense",
+        "velodyne_1",
+        "novatel",
+        "velodyne_2"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "turnpike_flat_2023-09-12-13-08-55",
+      "duration_seconds": 112.413587,
+      "average_speed_mps": 5.514604413473205,
+      "top_speed_mps": 10.047264994669806,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "midday",
+        "sunny",
+        "partly_cloudy",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "turnpike_flat_2023-09-12-13-11-44",
+      "duration_seconds": 804.8333439999999,
+      "average_speed_mps": 8.155112839149405,
+      "top_speed_mps": 11.44676904262136,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "midday",
+        "sunny",
+        "partly_cloudy",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "turnpike_flat_2023-09-12-13-38-55",
+      "duration_seconds": 48.797024,
+      "average_speed_mps": 0.016210944139961637,
+      "top_speed_mps": 0.035064821906495694,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "midday",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "turnpike_flat_2023-09-12-13-40-02",
+      "duration_seconds": 13.868139,
+      "average_speed_mps": 0.0,
+      "top_speed_mps": 0.0,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "midday",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect",
+        "4wd"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "multisense"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "turnpike_flat_2023-09-12-13-41-45",
+      "duration_seconds": 0.563705,
+      "average_speed_mps": 0.01699993800511405,
+      "top_speed_mps": 0.03343070825038932,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "midday",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect",
+        "4wd"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "multisense",
+        "velodyne_1",
+        "velodyne_2"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "turnpike_flat_2023-09-12-13-42-26",
+      "duration_seconds": 1939.530338,
+      "average_speed_mps": 3.660733752566822,
+      "top_speed_mps": 10.436500234397393,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "midday",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect",
+        "4wd"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "turnpike_flat_2023-09-12-14-16-06",
+      "duration_seconds": 73.095394,
+      "average_speed_mps": 3.085449819733988,
+      "top_speed_mps": 6.325885332548692,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "midday",
+        "sunny",
+        "partly cloudy",
+        "dry"
+      ],
+      "context": [
+        "collect",
+        "4wd"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "turnpike_flat_2023-09-12-14-21-03",
+      "duration_seconds": 552.768143,
+      "average_speed_mps": 3.815712422037004,
+      "top_speed_mps": 10.007126746953952,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "midday",
+        "sunny",
+        "partly cloudy",
+        "dry"
+      ],
+      "context": [
+        "collect",
+        "4wd"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "turnpike_skydio_2023-09-13-18-00-11",
+      "duration_seconds": 369.210952,
+      "average_speed_mps": 3.1244539323924525,
+      "top_speed_mps": 14.992933681811055,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "evening",
+        "sunset",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "turnpike_skydio_2023-09-14-13-57-56",
+      "duration_seconds": 70.015603,
+      "average_speed_mps": 5.112051801913938,
+      "top_speed_mps": 10.566829865365106,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "afternoon",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "turnpike_to_gupta_flat_2023-09-12-14-31-21",
+      "duration_seconds": 238.715328,
+      "average_speed_mps": 3.311402458269141,
+      "top_speed_mps": 4.633567235726226,
+      "course": [
+        "turnpike",
+        "rough_rider",
+        "figure_8"
+      ],
+      "conditions": [
+        "midday",
+        "sunny",
+        "partly cloudy",
+        "dry"
+      ],
+      "context": [
+        "collect",
+        "4wd"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "turnpike_warehouse_2023-09-13-19-03-05",
+      "duration_seconds": 306.49673700000005,
+      "average_speed_mps": 4.727295989231415,
+      "top_speed_mps": 10.259217051773472,
+      "course": [
+        "turnpike"
+      ],
+      "conditions": [
+        "evening",
+        "sunset",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "turnpike_warehouse_2023-09-14-14-05-14",
+      "duration_seconds": 39.427554,
+      "average_speed_mps": 2.23439040891781,
+      "top_speed_mps": 4.599759751768287,
+      "course": [
+        "turnpike",
+        "rough_rider",
+        "figure_8"
+      ],
+      "conditions": [
+        "afternoon",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "turnpike_warehouse_2023-09-14-14-07-12",
+      "duration_seconds": 341.541478,
+      "average_speed_mps": 4.858056148228291,
+      "top_speed_mps": 9.613945781098415,
+      "course": [
+        "turnpike",
+        "rough_rider",
+        "figure_8"
+      ],
+      "conditions": [
+        "afternoon",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Steve",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "warehouse_gupta_2023-09-13-16-23-26",
+      "duration_seconds": 47.76738,
+      "average_speed_mps": 0.6932930572904016,
+      "top_speed_mps": 4.299400473526804,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "late_afternoon",
+        "sunny",
+        "partly cloudy",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "warehouse_gupta_2023-09-13-16-27-05",
+      "duration_seconds": 4.932477,
+      "average_speed_mps": 60.25631562340071,
+      "top_speed_mps": 66.86484871553212,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "late_afternoon",
+        "sunny",
+        "partly cloudy",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "warehouse_gupta_2023-09-13-16-28-57",
+      "duration_seconds": 577.4626,
+      "average_speed_mps": 3.9858339961353657,
+      "top_speed_mps": 8.868867907765404,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "late_afternoon",
+        "sunny",
+        "partly cloudy",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    },
+    {
+      "run": "warehouse_gupta_2023-09-13-16-52-58",
+      "duration_seconds": 197.853811,
+      "average_speed_mps": 2.9282023377426216,
+      "top_speed_mps": 6.4419551360284775,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "early_evening",
+        "sunny",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Andrew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "multisense",
+        "velodyne_1",
+        "novatel",
+        "velodyne_2"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "warehouse_gupta_skydio_2023-09-13-16-44-00",
+      "duration_seconds": 31.21,
+      "average_speed_mps": 0.020052271899882384,
+      "top_speed_mps": 0.0412332107955004,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "late_afternoon",
+        "sunny",
+        "partly cloudy",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "multisense",
+        "velodyne_1",
+        "novatel",
+        "velodyne_2"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "warehouse_gupta_skydio_2023-09-13-16-45-20",
+      "duration_seconds": 157.965049,
+      "average_speed_mps": 4.244662116708935,
+      "top_speed_mps": 9.352195877020455,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "late_afternoon",
+        "sunny",
+        "partly cloudy",
+        "dry"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "multisense",
+        "velodyne_1",
+        "novatel",
+        "velodyne_2"
+      ],
+      "kitti_available": false,
+      "modalities": []
+    },
+    {
+      "run": "warehouse_to_fence_2023-09-12-10-19-17",
+      "duration_seconds": 84.466614,
+      "average_speed_mps": 5.564319702672245,
+      "top_speed_mps": 8.837280956078335,
+      "course": [
+        "gupta"
+      ],
+      "conditions": [
+        "morning",
+        "dry",
+        "sunny"
+      ],
+      "context": [
+        "collect"
+      ],
+      "driver": "Matthew",
+      "robot": "yamaha_viking",
+      "sensors": [
+        "velodyne_2",
+        "multisense",
+        "racepak",
+        "novatel",
+        "velodyne_1"
+      ],
+      "kitti_available": true,
+      "modalities": [
+        "cmd",
+        "controls",
+        "current_position",
+        "gps_odom",
+        "multisense_imu",
+        "novatel_imu",
+        "shock_pos",
+        "steering_angle",
+        "super_odom",
+        "tartanvo_odom",
+        "traversability_breakdown",
+        "traversability_cost",
+        "wheel_rpm"
+      ]
+    }
+  ],
+  "failures": []
+}

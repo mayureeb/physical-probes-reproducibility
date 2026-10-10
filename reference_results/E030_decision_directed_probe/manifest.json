@@ -1,0 +1,30 @@
+{
+  "status": "generated_before_model_selection",
+  "splits": {
+    "train": {
+      "seed": 30130,
+      "worlds": 4096,
+      "input_sha256": "28169590127b638605817a0077f0f148d490a92002a86f023301f66360c090f8",
+      "target_sha256": null,
+      "elapsed_seconds": 3224.138053270988
+    },
+    "validation": {
+      "seed": 30230,
+      "worlds": 1024,
+      "input_sha256": "1f40d9d67f4064431e1b83c7412ba3a4ed2a49c5b49c63cb9089197edb8c4ff1",
+      "target_sha256": null,
+      "elapsed_seconds": 785.7264847671613
+    },
+    "test": {
+      "seed": 30330,
+      "worlds": 2048,
+      "input_sha256": "c180830eed52d8962a45a294b5a13eee403b76b21955d491f4762d5b52d5f77c",
+      "target_sha256": "5c778c943eac51075a00f93bbe4147bdc7dadac96cf0ce48193407e300fc760e",
+      "elapsed_seconds": 1600.1188303017989
+    }
+  },
+  "selection_lock_sha256": "2c0fd28b4fcbc5a0d8426f7b5652c1bd7232c06ae8144114f17126ec19e67f3d",
+  "confirmatory_source_lock_sha256": "490b860460425b2702794659abe5058121d7c1f33a3b3ae53f031c7b6275f870",
+  "runtime_amendment_sha256": "4e77fc533ad74964950589ffcb49a5eb7c0043dbb67a38f8ed5c186f16cc5c1d",
+  "chunk_size": 256
+}

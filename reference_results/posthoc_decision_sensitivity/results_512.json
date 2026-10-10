@@ -1,0 +1,104 @@
+{
+  "status": "post_hoc_on_locked_test_worlds",
+  "worlds": 512,
+  "source_worlds": 2048,
+  "subset_seed": 31032,
+  "selected_index_sha256": "53156c56ce5b59f48eb19f4f628ebddf3401d0077ffab8d74fe6c9165f440a4b",
+  "probe": "fixed_negative_first",
+  "parameter_order": [
+    "mass",
+    "mu",
+    "damping",
+    "gain",
+    "strength",
+    "tau1",
+    "tau2",
+    "mix"
+  ],
+  "target_sha256": "5c778c943eac51075a00f93bbe4147bdc7dadac96cf0ce48193407e300fc760e",
+  "step_fraction_of_parameter_range": 0.02,
+  "release_speed_finite_difference_step_mps": 0.005,
+  "metric": "Mean local Hausdorff sensitivity of the successful release-speed interval from implicit boundary derivatives, in m/s per test-set parameter standard deviation.",
+  "baseline_interval_width_mps": {
+    "mean": 0.12282049655914307,
+    "median": 0.11370849609375
+  },
+  "per_parameter": [
+    {
+      "parameter": "mass",
+      "label": "Mass",
+      "test_standard_deviation": 0.26008808612823486,
+      "finite_difference_step": 0.017999999225139618,
+      "mean_interval_boundary_sensitivity_mps_per_sd": 0.24054212868213654,
+      "median_interval_boundary_sensitivity_mps_per_sd": 0.1945987045764923,
+      "mean_absolute_midpoint_sensitivity_mps_per_sd": 0.22028958797454834
+    },
+    {
+      "parameter": "mu",
+      "label": "Coulomb friction",
+      "test_standard_deviation": 0.04673381894826889,
+      "finite_difference_step": 0.0031999999191612005,
+      "mean_interval_boundary_sensitivity_mps_per_sd": 0.0,
+      "median_interval_boundary_sensitivity_mps_per_sd": 0.0,
+      "mean_absolute_midpoint_sensitivity_mps_per_sd": 0.0
+    },
+    {
+      "parameter": "damping",
+      "label": "Damping",
+      "test_standard_deviation": 0.03198535740375519,
+      "finite_difference_step": 0.002199999988079071,
+      "mean_interval_boundary_sensitivity_mps_per_sd": 0.0310908704996109,
+      "median_interval_boundary_sensitivity_mps_per_sd": 0.029424339532852173,
+      "mean_absolute_midpoint_sensitivity_mps_per_sd": 0.028434239327907562
+    },
+    {
+      "parameter": "gain",
+      "label": "Actuator gain",
+      "test_standard_deviation": 4.630155563354492,
+      "finite_difference_step": 0.3199999928474426,
+      "mean_interval_boundary_sensitivity_mps_per_sd": 0.006262218579649925,
+      "median_interval_boundary_sensitivity_mps_per_sd": 0.003993604332208633,
+      "mean_absolute_midpoint_sensitivity_mps_per_sd": 0.005738152656704187
+    },
+    {
+      "parameter": "strength",
+      "label": "Resistance strength",
+      "test_standard_deviation": 0.2298959493637085,
+      "finite_difference_step": 0.01600000075995922,
+      "mean_interval_boundary_sensitivity_mps_per_sd": 0.30043014883995056,
+      "median_interval_boundary_sensitivity_mps_per_sd": 0.2812119126319885,
+      "mean_absolute_midpoint_sensitivity_mps_per_sd": 0.27514857053756714
+    },
+    {
+      "parameter": "tau1",
+      "label": "Short time constant",
+      "test_standard_deviation": 0.05780181661248207,
+      "finite_difference_step": 0.004000000189989805,
+      "mean_interval_boundary_sensitivity_mps_per_sd": 0.01573883183300495,
+      "median_interval_boundary_sensitivity_mps_per_sd": 0.011415774933993816,
+      "mean_absolute_midpoint_sensitivity_mps_per_sd": 0.014395210891962051
+    },
+    {
+      "parameter": "tau2",
+      "label": "Long time constant",
+      "test_standard_deviation": 0.3214653432369232,
+      "finite_difference_step": 0.02199999801814556,
+      "mean_interval_boundary_sensitivity_mps_per_sd": 0.018385369330644608,
+      "median_interval_boundary_sensitivity_mps_per_sd": 0.013055369257926941,
+      "mean_absolute_midpoint_sensitivity_mps_per_sd": 0.016845297068357468
+    },
+    {
+      "parameter": "mix",
+      "label": "Mixture weight",
+      "test_standard_deviation": 0.13152238726615906,
+      "finite_difference_step": 0.008999999612569809,
+      "mean_interval_boundary_sensitivity_mps_per_sd": 0.035643141716718674,
+      "median_interval_boundary_sensitivity_mps_per_sd": 0.032194025814533234,
+      "mean_absolute_midpoint_sensitivity_mps_per_sd": 0.03269018605351448
+    }
+  ],
+  "elapsed_seconds": 2431.727069914341,
+  "devices": [
+    "cuda:0"
+  ]
+}

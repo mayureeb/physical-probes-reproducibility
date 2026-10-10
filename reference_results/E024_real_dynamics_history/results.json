@@ -1,0 +1,635 @@
+{
+  "status": "evaluated_once_after_prediction_freeze",
+  "primary_history_method": "gru_ensemble",
+  "instantaneous_reference": "current_tree",
+  "bootstrap": {
+    "seed": 2402401,
+    "replicates": 20000
+  },
+  "splits": {
+    "test_slag_heap": {
+      "methods": {
+        "constant_velocity": {
+          "aggregate_nrmse": 0.2969736158847809,
+          "channel_rmse": [
+            0.284148633480072,
+            0.2865487039089203,
+            0.07579509168863297
+          ],
+          "channel_mae": [
+            0.19938741624355316,
+            0.20256109535694122,
+            0.05238400399684906
+          ],
+          "windows": 1797
+        },
+        "current_ridge": {
+          "aggregate_nrmse": 0.3321899175643921,
+          "channel_rmse": [
+            0.2826405167579651,
+            0.28430816531181335,
+            0.08521707355976105
+          ],
+          "channel_mae": [
+            0.20087474584579468,
+            0.20158937573432922,
+            0.05866934359073639
+          ],
+          "windows": 1797
+        },
+        "current_tree": {
+          "aggregate_nrmse": 0.24750207364559174,
+          "channel_rmse": [
+            0.30438923835754395,
+            0.35381871461868286,
+            0.06171264499425888
+          ],
+          "channel_mae": [
+            0.2153647094964981,
+            0.25519588589668274,
+            0.04183419421315193
+          ],
+          "windows": 1797
+        },
+        "arx": {
+          "aggregate_nrmse": 0.3172284662723541,
+          "channel_rmse": [
+            0.36134111881256104,
+            0.34706735610961914,
+            0.08027809858322144
+          ],
+          "channel_mae": [
+            0.25552982091903687,
+            0.24556280672550201,
+            0.05566776916384697
+          ],
+          "windows": 1797
+        },
+        "random_feature": {
+          "aggregate_nrmse": 0.31704139709472656,
+          "channel_rmse": [
+            0.5811865329742432,
+            0.5884624123573303,
+            0.07545562088489532
+          ],
+          "channel_mae": [
+            0.42430877685546875,
+            0.4636947214603424,
+            0.05471270531415939
+          ],
+          "windows": 1797
+        },
+        "gru_seed24": {
+          "aggregate_nrmse": 0.2451520413160324,
+          "channel_rmse": [
+            0.30543825030326843,
+            0.3093022406101227,
+            0.06149173900485039
+          ],
+          "channel_mae": [
+            0.22220611572265625,
+            0.23545129597187042,
+            0.04230903461575508
+          ],
+          "windows": 1797
+        },
+        "gru_seed48": {
+          "aggregate_nrmse": 0.2475692331790924,
+          "channel_rmse": [
+            0.3133765459060669,
+            0.35547906160354614,
+            0.061640478670597076
+          ],
+          "channel_mae": [
+            0.23651689291000366,
+            0.26164913177490234,
+            0.04283594712615013
+          ],
+          "windows": 1797
+        },
+        "gru_seed72": {
+          "aggregate_nrmse": 0.24713096022605896,
+          "channel_rmse": [
+            0.3089284300804138,
+            0.29799047112464905,
+            0.06210142746567726
+          ],
+          "channel_mae": [
+            0.2230825275182724,
+            0.22150228917598724,
+            0.04283813759684563
+          ],
+          "windows": 1797
+        },
+        "gru_ensemble": {
+          "aggregate_nrmse": 0.24257643520832062,
+          "channel_rmse": [
+            0.2894582450389862,
+            0.2953607439994812,
+            0.06104142963886261
+          ],
+          "channel_mae": [
+            0.2079174816608429,
+            0.22121399641036987,
+            0.04188753291964531
+          ],
+          "windows": 1797
+        },
+        "primary_wrong_history": {
+          "aggregate_nrmse": 0.29463306069374084,
+          "channel_rmse": [
+            0.5277398824691772,
+            0.5231084227561951,
+            0.07059939205646515
+          ],
+          "channel_mae": [
+            0.41560763120651245,
+            0.4065377414226532,
+            0.05233926698565483
+          ],
+          "windows": 1797
+        }
+      },
+      "target_sha256": "c3c25e83debff9e615e2189cf4add36d505a2683c79b8109794a60016a9a67d2",
+      "input_sha256": "e51338ed2ceb7e563f962d90bad56266fe4a59b242252ba87ac9cf73fb8d1325",
+      "comparisons": {
+        "history_vs_instantaneous": {
+          "relative_error_reduction": 0.019901402702283355,
+          "ci95": [
+            0.007734850829380635,
+            0.05256331668425607
+          ],
+          "replicates": 20000,
+          "seed": 2402401,
+          "run_blocks": 3
+        },
+        "history_vs_arx": {
+          "relative_error_reduction": 0.23532576360893653,
+          "ci95": [
+            0.22609369586527706,
+            0.3047054586708995
+          ],
+          "replicates": 20000,
+          "seed": 2402401,
+          "run_blocks": 3
+        },
+        "history_vs_wrong_history": {
+          "relative_error_reduction": 0.17668290640177342,
+          "ci95": [
+            0.14042854264611626,
+            0.21951201307190105
+          ],
+          "replicates": 20000,
+          "seed": 2402401,
+          "run_blocks": 3
+        }
+      },
+      "primary_calibration_quartiles": {
+        "speed": [
+          {
+            "quartile": 1,
+            "lower": 0.0009302766993641853,
+            "upper": 0.11317556351423264,
+            "windows": 449,
+            "aggregate_nrmse": 0.07171928137540817
+          },
+          {
+            "quartile": 2,
+            "lower": 0.11317556351423264,
+            "upper": 1.1012648344039917,
+            "windows": 449,
+            "aggregate_nrmse": 0.25740939378738403
+          },
+          {
+            "quartile": 3,
+            "lower": 1.1012648344039917,
+            "upper": 1.497206449508667,
+            "windows": 449,
+            "aggregate_nrmse": 0.28601598739624023
+          },
+          {
+            "quartile": 4,
+            "lower": 1.497206449508667,
+            "upper": 2.331573724746704,
+            "windows": 450,
+            "aggregate_nrmse": 0.28655385971069336
+          }
+        ],
+        "action_magnitude": [
+          {
+            "quartile": 1,
+            "lower": 77.0290298461914,
+            "upper": 157.07034301757812,
+            "windows": 449,
+            "aggregate_nrmse": 0.08215606957674026
+          },
+          {
+            "quartile": 2,
+            "lower": 157.07034301757812,
+            "upper": 215.0873260498047,
+            "windows": 449,
+            "aggregate_nrmse": 0.2438625544309616
+          },
+          {
+            "quartile": 3,
+            "lower": 215.0873260498047,
+            "upper": 341.389404296875,
+            "windows": 449,
+            "aggregate_nrmse": 0.25669875741004944
+          },
+          {
+            "quartile": 4,
+            "lower": 341.389404296875,
+            "upper": 508.4654541015625,
+            "windows": 450,
+            "aggregate_nrmse": 0.3211881220340729
+          }
+        ],
+        "wheel_slip_proxy": [
+          {
+            "quartile": 1,
+            "lower": 0.0,
+            "upper": 0.485237181186676,
+            "windows": 449,
+            "aggregate_nrmse": 0.11801958084106445
+          },
+          {
+            "quartile": 2,
+            "lower": 0.485237181186676,
+            "upper": 1.9203014373779297,
+            "windows": 449,
+            "aggregate_nrmse": 0.2506328821182251
+          },
+          {
+            "quartile": 3,
+            "lower": 1.9203014373779297,
+            "upper": 6.9417219161987305,
+            "windows": 449,
+            "aggregate_nrmse": 0.2861243486404419
+          },
+          {
+            "quartile": 4,
+            "lower": 6.9417219161987305,
+            "upper": 994.2545776367188,
+            "windows": 450,
+            "aggregate_nrmse": 0.27698540687561035
+          }
+        ],
+        "shock_response": [
+          {
+            "quartile": 1,
+            "lower": 7.536820888519287,
+            "upper": 8.294404983520508,
+            "windows": 449,
+            "aggregate_nrmse": 0.25400853157043457
+          },
+          {
+            "quartile": 2,
+            "lower": 8.294404983520508,
+            "upper": 8.389252662658691,
+            "windows": 449,
+            "aggregate_nrmse": 0.18680919706821442
+          },
+          {
+            "quartile": 3,
+            "lower": 8.389252662658691,
+            "upper": 8.550344467163086,
+            "windows": 449,
+            "aggregate_nrmse": 0.2608959376811981
+          },
+          {
+            "quartile": 4,
+            "lower": 8.550344467163086,
+            "upper": 9.205940246582031,
+            "windows": 450,
+            "aggregate_nrmse": 0.26051589846611023
+          }
+        ]
+      }
+    },
+    "test_damp": {
+      "methods": {
+        "constant_velocity": {
+          "aggregate_nrmse": 0.5659797787666321,
+          "channel_rmse": [
+            0.5281260013580322,
+            0.5830482244491577,
+            0.14427433907985687
+          ],
+          "channel_mae": [
+            0.3974571228027344,
+            0.4270753860473633,
+            0.10555201768875122
+          ],
+          "windows": 648
+        },
+        "current_ridge": {
+          "aggregate_nrmse": 0.4579283595085144,
+          "channel_rmse": [
+            0.5198398232460022,
+            0.5849651098251343,
+            0.11518954485654831
+          ],
+          "channel_mae": [
+            0.3887001872062683,
+            0.43197062611579895,
+            0.0844099223613739
+          ],
+          "windows": 648
+        },
+        "current_tree": {
+          "aggregate_nrmse": 0.4663575291633606,
+          "channel_rmse": [
+            0.45502936840057373,
+            0.5122103095054626,
+            0.11851982027292252
+          ],
+          "channel_mae": [
+            0.3466383218765259,
+            0.40353623032569885,
+            0.08826416730880737
+          ],
+          "windows": 648
+        },
+        "arx": {
+          "aggregate_nrmse": 0.43564051389694214,
+          "channel_rmse": [
+            0.44816121459007263,
+            0.4847504198551178,
+            0.11051563173532486
+          ],
+          "channel_mae": [
+            0.33536389470100403,
+            0.3626058101654053,
+            0.08079692721366882
+          ],
+          "windows": 648
+        },
+        "random_feature": {
+          "aggregate_nrmse": 0.47649121284484863,
+          "channel_rmse": [
+            0.8146076798439026,
+            0.8253069519996643,
+            0.11490843445062637
+          ],
+          "channel_mae": [
+            0.6229446530342102,
+            0.6302804350852966,
+            0.08462828397750854
+          ],
+          "windows": 648
+        },
+        "gru_seed24": {
+          "aggregate_nrmse": 0.4387456774711609,
+          "channel_rmse": [
+            0.4943452477455139,
+            0.44459301233291626,
+            0.11133279651403427
+          ],
+          "channel_mae": [
+            0.39152801036834717,
+            0.3366956412792206,
+            0.08105126023292542
+          ],
+          "windows": 648
+        },
+        "gru_seed48": {
+          "aggregate_nrmse": 0.4463830292224884,
+          "channel_rmse": [
+            0.5013145804405212,
+            0.49322059750556946,
+            0.11297637969255447
+          ],
+          "channel_mae": [
+            0.3866792321205139,
+            0.3807522654533386,
+            0.08298946917057037
+          ],
+          "windows": 648
+        },
+        "gru_seed72": {
+          "aggregate_nrmse": 0.4321012794971466,
+          "channel_rmse": [
+            0.4525757431983948,
+            0.46520188450813293,
+            0.10968466103076935
+          ],
+          "channel_mae": [
+            0.35830727219581604,
+            0.3589077889919281,
+            0.07987368851900101
+          ],
+          "windows": 648
+        },
+        "gru_ensemble": {
+          "aggregate_nrmse": 0.4361467957496643,
+          "channel_rmse": [
+            0.46545666456222534,
+            0.4497716426849365,
+            0.11079999804496765
+          ],
+          "channel_mae": [
+            0.36469078063964844,
+            0.3449549078941345,
+            0.08058003336191177
+          ],
+          "windows": 648
+        },
+        "primary_wrong_history": {
+          "aggregate_nrmse": 0.995491087436676,
+          "channel_rmse": [
+            2.7577977180480957,
+            4.742136001586914,
+            0.12236418575048447
+          ],
+          "channel_mae": [
+            2.318453073501587,
+            4.0254411697387695,
+            0.09181466698646545
+          ],
+          "windows": 648
+        }
+      },
+      "target_sha256": "46cf162cd2009e95599640876f5db084722c617683487b90be53ffcff6f3a244",
+      "input_sha256": "943b8d01a978516649ad36ce717d6e3168c7ef844d199337d98d3518a2ccccd8",
+      "comparisons": {
+        "history_vs_instantaneous": {
+          "relative_error_reduction": 0.06478019871984042,
+          "ci95": [
+            -0.23278031787671893,
+            0.06481348635235118
+          ],
+          "replicates": 20000,
+          "seed": 2402401,
+          "run_blocks": 2
+        },
+        "history_vs_arx": {
+          "relative_error_reduction": -0.0011621551177445344,
+          "ci95": [
+            -0.08467313728891934,
+            -0.0011496951441092307
+          ],
+          "replicates": 20000,
+          "seed": 2402401,
+          "run_blocks": 2
+        },
+        "history_vs_wrong_history": {
+          "relative_error_reduction": 0.561877749330018,
+          "ci95": [
+            -0.016415632474346298,
+            0.5619076811374615
+          ],
+          "replicates": 20000,
+          "seed": 2402401,
+          "run_blocks": 2
+        }
+      },
+      "primary_calibration_quartiles": {
+        "speed": [
+          {
+            "quartile": 1,
+            "lower": 0.0010721167782321572,
+            "upper": 5.42004668712616,
+            "windows": 162,
+            "aggregate_nrmse": 0.4711041748523712
+          },
+          {
+            "quartile": 2,
+            "lower": 5.42004668712616,
+            "upper": 6.317995309829712,
+            "windows": 162,
+            "aggregate_nrmse": 0.4633045792579651
+          },
+          {
+            "quartile": 3,
+            "lower": 6.317995309829712,
+            "upper": 7.550691366195679,
+            "windows": 162,
+            "aggregate_nrmse": 0.4356353282928467
+          },
+          {
+            "quartile": 4,
+            "lower": 7.550691366195679,
+            "upper": 8.780926704406738,
+            "windows": 162,
+            "aggregate_nrmse": 0.36678019165992737
+          }
+        ],
+        "action_magnitude": [
+          {
+            "quartile": 1,
+            "lower": 72.38818359375,
+            "upper": 73.61811065673828,
+            "windows": 162,
+            "aggregate_nrmse": 0.3091958463191986
+          },
+          {
+            "quartile": 2,
+            "lower": 73.61811065673828,
+            "upper": 75.16369247436523,
+            "windows": 162,
+            "aggregate_nrmse": 0.40214499831199646
+          },
+          {
+            "quartile": 3,
+            "lower": 75.16369247436523,
+            "upper": 109.08090400695801,
+            "windows": 162,
+            "aggregate_nrmse": 0.45921000838279724
+          },
+          {
+            "quartile": 4,
+            "lower": 109.08090400695801,
+            "upper": 4732.708984375,
+            "windows": 162,
+            "aggregate_nrmse": 0.5410171747207642
+          }
+        ],
+        "wheel_slip_proxy": [
+          {
+            "quartile": 1,
+            "lower": 0.0,
+            "upper": 2.467350482940674,
+            "windows": 162,
+            "aggregate_nrmse": 0.39162325859069824
+          },
+          {
+            "quartile": 2,
+            "lower": 2.467350482940674,
+            "upper": 8.054749965667725,
+            "windows": 162,
+            "aggregate_nrmse": 0.44236117601394653
+          },
+          {
+            "quartile": 3,
+            "lower": 8.054749965667725,
+            "upper": 35.035104751586914,
+            "windows": 162,
+            "aggregate_nrmse": 0.4689965844154358
+          },
+          {
+            "quartile": 4,
+            "lower": 35.035104751586914,
+            "upper": 289.79254150390625,
+            "windows": 162,
+            "aggregate_nrmse": 0.43804803490638733
+          }
+        ],
+        "shock_response": [
+          {
+            "quartile": 1,
+            "lower": 7.04716682434082,
+            "upper": 8.20668888092041,
+            "windows": 161,
+            "aggregate_nrmse": 0.4077443778514862
+          },
+          {
+            "quartile": 2,
+            "lower": 8.20668888092041,
+            "upper": 8.339008808135986,
+            "windows": 163,
+            "aggregate_nrmse": 0.45263350009918213
+          },
+          {
+            "quartile": 3,
+            "lower": 8.339008808135986,
+            "upper": 8.465563774108887,
+            "windows": 162,
+            "aggregate_nrmse": 0.4287775158882141
+          },
+          {
+            "quartile": 4,
+            "lower": 8.465563774108887,
+            "upper": 9.248374938964844,
+            "windows": 162,
+            "aggregate_nrmse": 0.453514039516449
+          }
+        ]
+      }
+    }
+  },
+  "input_hashes": {
+    "selection": "cf23ef27ed118cfa0f5b4b76fe81770ac3f3a1b3bf367d6099322437566c02c8",
+    "predictions": "03a7e433fa4176fd9f4b4940399987f2f32730e684601bb991210332c31d6315"
+  },
+  "gate": {
+    "components": {
+      "history_vs_instantaneous": {
+        "threshold": 0.1,
+        "point_pass": false,
+        "directional_ci_pass": true
+      },
+      "history_vs_arx": {
+        "threshold": 0.05,
+        "point_pass": true,
+        "directional_ci_pass": true
+      },
+      "history_vs_wrong_history": {
+        "threshold": 0.05,
+        "point_pass": true,
+        "directional_ci_pass": true
+      }
+    },
+    "passed": false
+  }
+}

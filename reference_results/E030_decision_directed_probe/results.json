@@ -1,0 +1,140 @@
+{
+  "status": "decision_directed_probe_evaluated",
+  "worlds": 2048,
+  "test_seed": 30330,
+  "selection": {
+    "decision_directed_source": "piecewise_14",
+    "d_optimal_source": "multisine_03",
+    "best_fixed_on_test": "fixed_negative_first"
+  },
+  "comparisons": {
+    "decision_minus_d_optimal_direct": {
+      "first_completion": 0.19921875,
+      "second_completion": 0.162109375,
+      "difference": 0.037109375,
+      "bootstrap_95_interval": [
+        0.01904296875,
+        0.0556640625
+      ],
+      "discordant_worlds": 370,
+      "directional_exact_p": 4.581953789191876e-05,
+      "holm_adjusted_p": 0.00013745861367575629
+    },
+    "decision_minus_best_fixed_direct": {
+      "first_completion": 0.19921875,
+      "second_completion": 0.22998046875,
+      "difference": -0.03076171875,
+      "bootstrap_95_interval": [
+        -0.05029296875,
+        -0.01123046875
+      ],
+      "discordant_worlds": 429,
+      "directional_exact_p": 0.9990163360264496,
+      "holm_adjusted_p": 0.9990163360264496
+    },
+    "decision_minus_d_optimal_planner": {
+      "first_completion": 0.255859375,
+      "second_completion": 0.24560546875,
+      "difference": 0.01025390625,
+      "bootstrap_95_interval": [
+        -0.0146484375,
+        0.03466796875
+      ],
+      "discordant_worlds": 649,
+      "directional_exact_p": 0.21621805602567692,
+      "holm_adjusted_p": 0.43243611205135385
+    },
+    "decision_true_minus_estimated_planner": {
+      "first_completion": 1.0,
+      "second_completion": 0.255859375,
+      "difference": 0.744140625,
+      "bootstrap_95_interval": [
+        0.7255859375,
+        0.76318359375
+      ],
+      "discordant_worlds": 1524,
+      "directional_exact_p": 0.0,
+      "holm_adjusted_p": 0.0
+    }
+  },
+  "registered_gates": {
+    "decision_vs_d_optimal": false,
+    "decision_vs_best_fixed": false,
+    "structured_vs_d_optimal": false,
+    "true_state_positive_control": true
+  },
+  "descriptive": {
+    "decision_directed__direct": {
+      "completion": 0.19921875,
+      "mean_landing_error_m": 0.24048402905464172
+    },
+    "decision_directed__estimated_planner": {
+      "completion": 0.255859375,
+      "mean_landing_error_m": 0.18215630948543549
+    },
+    "decision_directed__true_planner": {
+      "completion": 1.0,
+      "mean_landing_error_m": 6.257985660340637e-05
+    },
+    "d_optimal__direct": {
+      "completion": 0.162109375,
+      "mean_landing_error_m": 0.31103238463401794
+    },
+    "d_optimal__estimated_planner": {
+      "completion": 0.24560546875,
+      "mean_landing_error_m": 0.19890275597572327
+    },
+    "d_optimal__true_planner": {
+      "completion": 1.0,
+      "mean_landing_error_m": 6.0247446526773274e-05
+    },
+    "fixed_positive_first__direct": {
+      "completion": 0.22900390625,
+      "mean_landing_error_m": 0.21471092104911804
+    },
+    "fixed_positive_first__estimated_planner": {
+      "completion": 0.318359375,
+      "mean_landing_error_m": 0.1489197015762329
+    },
+    "fixed_positive_first__true_planner": {
+      "completion": 1.0,
+      "mean_landing_error_m": 6.268479046411812e-05
+    },
+    "fixed_negative_first__direct": {
+      "completion": 0.22998046875,
+      "mean_landing_error_m": 0.2162720113992691
+    },
+    "fixed_negative_first__estimated_planner": {
+      "completion": 0.30712890625,
+      "mean_landing_error_m": 0.14589592814445496
+    },
+    "fixed_negative_first__true_planner": {
+      "completion": 1.0,
+      "mean_landing_error_m": 6.285496056079865e-05
+    }
+  },
+  "costs": {
+    "decision_directed": {
+      "path_violations": 0,
+      "work_violations": 0,
+      "peak_speed_max": 1.0664383172988892
+    },
+    "d_optimal": {
+      "path_violations": 0,
+      "work_violations": 0,
+      "peak_speed_max": 1.104771375656128
+    },
+    "fixed_positive_first": {
+      "path_violations": 6,
+      "work_violations": 0,
+      "peak_speed_max": 1.0877100229263306
+    },
+    "fixed_negative_first": {
+      "path_violations": 6,
+      "work_violations": 0,
+      "peak_speed_max": 1.0877100229263306
+    }
+  },
+  "action_artifact_sha256": "aabccacbc1db820df937435832fdf7ab6d76a65892ea3d8d8716f9199617b96c",
+  "target_sha256": "5c778c943eac51075a00f93bbe4147bdc7dadac96cf0ce48193407e300fc760e"
+}

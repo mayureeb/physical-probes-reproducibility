@@ -1,0 +1,259 @@
+{
+  "status": "posthoc_decision_equivalence_audit",
+  "studies": {
+    "matched_probe_test": {
+      "source": "experiments/E025_decision_ambiguity/audit/test_targets.npz",
+      "worlds": 256,
+      "goals": 32,
+      "parameter_order": [
+        "mass",
+        "mu",
+        "damping",
+        "gain",
+        "strength",
+        "tau1",
+        "tau2",
+        "mix"
+      ],
+      "probes": {
+        "fixed_negative_first": {
+          "same_goal_pairs": 896,
+          "decision_equivalent_pairs": 166,
+          "decision_equivalent_fraction": 0.18526785714285715,
+          "decision_conflicting_fraction": 0.8147321428571429,
+          "standardized_parameter_distance_equivalent": {
+            "count": 166,
+            "mean": 3.6936518621731955,
+            "median": 3.6866947412490845,
+            "q05": 2.1639040112495422,
+            "q95": 5.033253312110901,
+            "maximum": 5.836252212524414
+          },
+          "standardized_parameter_distance_conflicting": {
+            "count": 730,
+            "mean": 3.960909529091561,
+            "median": 3.991000771522522,
+            "q05": 2.599593532085419,
+            "q95": 5.3681361913681025,
+            "maximum": 6.626025676727295
+          }
+        },
+        "fixed_positive_first": {
+          "same_goal_pairs": 896,
+          "decision_equivalent_pairs": 166,
+          "decision_equivalent_fraction": 0.18526785714285715,
+          "decision_conflicting_fraction": 0.8147321428571429,
+          "standardized_parameter_distance_equivalent": {
+            "count": 166,
+            "mean": 3.6936518621731955,
+            "median": 3.6866947412490845,
+            "q05": 2.1639040112495422,
+            "q95": 5.033253312110901,
+            "maximum": 5.836252212524414
+          },
+          "standardized_parameter_distance_conflicting": {
+            "count": 730,
+            "mean": 3.960909529091561,
+            "median": 3.991000771522522,
+            "q05": 2.599593532085419,
+            "q95": 5.3681361913681025,
+            "maximum": 6.626025676727295
+          }
+        },
+        "half_then_full_forward": {
+          "same_goal_pairs": 896,
+          "decision_equivalent_pairs": 165,
+          "decision_equivalent_fraction": 0.18415178571428573,
+          "decision_conflicting_fraction": 0.8158482142857143,
+          "standardized_parameter_distance_equivalent": {
+            "count": 165,
+            "mean": 3.6914505460045555,
+            "median": 3.6765758991241455,
+            "q05": 2.1536907196044925,
+            "q95": 5.034047698974609,
+            "maximum": 5.836252212524414
+          },
+          "standardized_parameter_distance_conflicting": {
+            "count": 731,
+            "mean": 3.9610408006386293,
+            "median": 3.991037130355835,
+            "q05": 2.599692225456238,
+            "q95": 5.367860555648804,
+            "maximum": 6.626025676727295
+          }
+        },
+        "multisine": {
+          "same_goal_pairs": 896,
+          "decision_equivalent_pairs": 165,
+          "decision_equivalent_fraction": 0.18415178571428573,
+          "decision_conflicting_fraction": 0.8158482142857143,
+          "standardized_parameter_distance_equivalent": {
+            "count": 165,
+            "mean": 3.6914505460045555,
+            "median": 3.6765758991241455,
+            "q05": 2.1536907196044925,
+            "q95": 5.034047698974609,
+            "maximum": 5.836252212524414
+          },
+          "standardized_parameter_distance_conflicting": {
+            "count": 731,
+            "mean": 3.9610408006386293,
+            "median": 3.991037130355835,
+            "q05": 2.599692225456238,
+            "q95": 5.367860555648804,
+            "maximum": 6.626025676727295
+          }
+        },
+        "passive": {
+          "same_goal_pairs": 896,
+          "decision_equivalent_pairs": 165,
+          "decision_equivalent_fraction": 0.18415178571428573,
+          "decision_conflicting_fraction": 0.8158482142857143,
+          "standardized_parameter_distance_equivalent": {
+            "count": 165,
+            "mean": 3.6914505460045555,
+            "median": 3.6765758991241455,
+            "q05": 2.1536907196044925,
+            "q95": 5.034047698974609,
+            "maximum": 5.836252212524414
+          },
+          "standardized_parameter_distance_conflicting": {
+            "count": 731,
+            "mean": 3.9610408006386293,
+            "median": 3.991037130355835,
+            "q05": 2.599692225456238,
+            "q95": 5.367860555648804,
+            "maximum": 6.626025676727295
+          }
+        },
+        "random_piecewise": {
+          "same_goal_pairs": 896,
+          "decision_equivalent_pairs": 165,
+          "decision_equivalent_fraction": 0.18415178571428573,
+          "decision_conflicting_fraction": 0.8158482142857143,
+          "standardized_parameter_distance_equivalent": {
+            "count": 165,
+            "mean": 3.6914505460045555,
+            "median": 3.6765758991241455,
+            "q05": 2.1536907196044925,
+            "q95": 5.034047698974609,
+            "maximum": 5.836252212524414
+          },
+          "standardized_parameter_distance_conflicting": {
+            "count": 731,
+            "mean": 3.9610408006386293,
+            "median": 3.991037130355835,
+            "q05": 2.599692225456238,
+            "q95": 5.367860555648804,
+            "maximum": 6.626025676727295
+          }
+        }
+      }
+    },
+    "probe_selection_test": {
+      "source": "experiments/E030_decision_directed_probe/audit/test_targets.npz",
+      "worlds": 2048,
+      "goals": 32,
+      "parameter_order": [
+        "mass",
+        "mu",
+        "damping",
+        "gain",
+        "strength",
+        "tau1",
+        "tau2",
+        "mix"
+      ],
+      "probes": {
+        "d_optimal": {
+          "same_goal_pairs": 64512,
+          "decision_equivalent_pairs": 13076,
+          "decision_equivalent_fraction": 0.2026909722222222,
+          "decision_conflicting_fraction": 0.7973090277777778,
+          "standardized_parameter_distance_equivalent": {
+            "count": 13076,
+            "mean": 3.713283523880732,
+            "median": 3.7148799896240234,
+            "q05": 2.261550545692444,
+            "q95": 5.145034551620483,
+            "maximum": 6.858658790588379
+          },
+          "standardized_parameter_distance_conflicting": {
+            "count": 51436,
+            "mean": 3.959009739959608,
+            "median": 3.966774344444275,
+            "q05": 2.5670207142829895,
+            "q95": 5.312092065811157,
+            "maximum": 7.375342845916748
+          }
+        },
+        "decision_directed": {
+          "same_goal_pairs": 64512,
+          "decision_equivalent_pairs": 13089,
+          "decision_equivalent_fraction": 0.20289248511904762,
+          "decision_conflicting_fraction": 0.7971075148809523,
+          "standardized_parameter_distance_equivalent": {
+            "count": 13089,
+            "mean": 3.713666384706833,
+            "median": 3.715029239654541,
+            "q05": 2.261097764968872,
+            "q95": 5.145149421691895,
+            "maximum": 6.858658790588379
+          },
+          "standardized_parameter_distance_conflicting": {
+            "count": 51423,
+            "mean": 3.9589744089881784,
+            "median": 3.9667582511901855,
+            "q05": 2.5671226024627685,
+            "q95": 5.31182451248169,
+            "maximum": 7.375342845916748
+          }
+        },
+        "fixed_negative_first": {
+          "same_goal_pairs": 64512,
+          "decision_equivalent_pairs": 13075,
+          "decision_equivalent_fraction": 0.20267547123015872,
+          "decision_conflicting_fraction": 0.7973245287698413,
+          "standardized_parameter_distance_equivalent": {
+            "count": 13075,
+            "mean": 3.713250158981885,
+            "median": 3.714833974838257,
+            "q05": 2.259602689743042,
+            "q95": 5.145194387435913,
+            "maximum": 6.858658790588379
+          },
+          "standardized_parameter_distance_conflicting": {
+            "count": 51437,
+            "mean": 3.959013443904946,
+            "median": 3.9667809009552,
+            "q05": 2.5672852039337157,
+            "q95": 5.311652374267577,
+            "maximum": 7.375342845916748
+          }
+        },
+        "fixed_positive_first": {
+          "same_goal_pairs": 64512,
+          "decision_equivalent_pairs": 13076,
+          "decision_equivalent_fraction": 0.2026909722222222,
+          "decision_conflicting_fraction": 0.7973090277777778,
+          "standardized_parameter_distance_equivalent": {
+            "count": 13076,
+            "mean": 3.713351283613313,
+            "median": 3.7148799896240234,
+            "q05": 2.259610414505005,
+            "q95": 5.145192265510559,
+            "maximum": 6.858658790588379
+          },
+          "standardized_parameter_distance_conflicting": {
+            "count": 51436,
+            "mean": 3.9589925141593274,
+            "median": 3.966774344444275,
+            "q05": 2.5672823786735535,
+            "q95": 5.311662435531616,
+            "maximum": 7.375342845916748
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "runtime_amendment_locked_before_completed_confirmatory_generation",
+  "amendment": "increase_generation_batch_size_from_64_to_256",
+  "generation_source_sha256": "d96591f35c2e26e31a1a49a2b445e68e345ad71b7b57df1fd35d9bda2af7c333",
+  "amendment_sha256": "ee8de1c626e0314fd3dfea9ddd62d48844c7e33ac630d82c8e51b8023c742aae",
+  "completed_splits": 0,
+  "saved_scientific_outputs": 0,
+  "test_targets_accessed": false
+}

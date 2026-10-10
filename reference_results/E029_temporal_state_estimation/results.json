@@ -1,0 +1,75 @@
+{
+  "status": "temporal_state_estimation_evaluated",
+  "worlds": 2048,
+  "test_seed": 29229,
+  "action_artifact_sha256": "6fb464562a0579fab2fb8d8cff9ffabe36255d0060ac8c1d0b889c1cd2adb06c",
+  "target_sha256": "790f0ff57e29031fd5a4c1eea60b2c9a1ab606f4ed51df8af460a148d6708b7f",
+  "comparisons": {
+    "budget_33_minus_9": {
+      "first_completion": 0.32763671875,
+      "second_completion": 0.31494140625,
+      "difference": 0.0126953125,
+      "bootstrap_95_interval": [
+        -0.00634765625,
+        0.03173828125
+      ],
+      "discordant_worlds": 392,
+      "exact_two_sided_p": 0.20664322749170627,
+      "holm_adjusted_p": 0.41328645498341254
+    },
+    "budget_401_minus_9": {
+      "first_completion": 0.31982421875,
+      "second_completion": 0.31494140625,
+      "difference": 0.0048828125,
+      "bootstrap_95_interval": [
+        -0.01708984375,
+        0.0263671875
+      ],
+      "discordant_worlds": 512,
+      "exact_two_sided_p": 0.690856582774872,
+      "holm_adjusted_p": 0.690856582774872
+    },
+    "true_state_minus_401": {
+      "first_completion": 1.0,
+      "second_completion": 0.31982421875,
+      "difference": 0.68017578125,
+      "bootstrap_95_interval": [
+        0.66015625,
+        0.70068359375
+      ],
+      "discordant_worlds": 1393,
+      "exact_two_sided_p": 0.0,
+      "holm_adjusted_p": 0.0
+    }
+  },
+  "all_locked_hypotheses_confirmed": false,
+  "descriptive": {
+    "budget_9": {
+      "completion": 0.31494140625,
+      "mean_landing_error_m": 0.14423243701457977
+    },
+    "budget_33": {
+      "completion": 0.32763671875,
+      "mean_landing_error_m": 0.1334967315196991
+    },
+    "budget_101": {
+      "completion": 0.33056640625,
+      "mean_landing_error_m": 0.13313621282577515
+    },
+    "budget_401": {
+      "completion": 0.31982421875,
+      "mean_landing_error_m": 0.13339999318122864
+    },
+    "true_state": {
+      "completion": 1.0,
+      "mean_landing_error_m": 6.31070724921301e-05
+    }
+  },
+  "parameter_nmse": {
+    "9": 0.6109758615493774,
+    "33": 0.5945786237716675,
+    "101": 0.5962784886360168,
+    "401": 0.5951052904129028
+  },
+  "completion_monotone_across_budgets": false
+}

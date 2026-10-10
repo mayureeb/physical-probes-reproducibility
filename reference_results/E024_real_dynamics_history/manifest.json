@@ -1,0 +1,930 @@
+{
+  "status": "e024_prepared_before_modeling",
+  "dt_seconds": 0.1,
+  "history_steps": 20,
+  "horizon_steps": 10,
+  "maximum_interpolation_gap_seconds": 0.25,
+  "stride_steps": 2,
+  "feature_order": [
+    "vx",
+    "vy",
+    "yaw_rate",
+    "control_0",
+    "control_1",
+    "steering",
+    "imu_wx",
+    "imu_wy",
+    "imu_wz",
+    "imu_ax",
+    "imu_ay",
+    "imu_az",
+    "wheel_fl",
+    "wheel_fr",
+    "wheel_rl",
+    "wheel_rr",
+    "shock_fl",
+    "shock_fr",
+    "shock_rl",
+    "shock_rr"
+  ],
+  "target_order": [
+    "future_vx",
+    "future_vy",
+    "future_yaw_rate"
+  ],
+  "splits": {
+    "train": {
+      "runs": [
+        "2023-10-26-14-42-35_turnpike_afternoon_fall",
+        "2023-11-02-16-00-43_down_meadows",
+        "2023-11-14-14-26-22_gupta",
+        "2023-11-14-14-34-53_gupta",
+        "2023-11-14-14-45-20_gupta",
+        "2023-11-14-14-52-22_gupta",
+        "2023-11-14-15-11-49_rough_rider_turnpike_loop",
+        "2023-11-14-15-22-01_figure_8",
+        "figure_8_2023-09-13-17-23-35",
+        "figure_8_2023-09-13-17-24-26",
+        "figure_8_to_turnpike_2023-09-12-12-22-45",
+        "figure_8_to_turnpike_pt2_2023-09-12-12-28-48",
+        "figure_8_turnpike_2023-09-13-17-40-27",
+        "figure_8_turnpike_2023-09-13-17-47-52",
+        "gupta_2023-09-14-10-46-16",
+        "gupta_2023-09-14-10-47-09",
+        "gupta_skydio_2023-09-14-11-03-09",
+        "gupta_warehouse_2023-09-13-19-12-49",
+        "meadows_2023-09-14-11-45-21",
+        "meadows_2023-09-14-12-07-28",
+        "meadows_2023-09-14-12-18-22",
+        "turnpike_2023-09-12-12-42-49",
+        "turnpike_2023-09-12-12-53-32",
+        "turnpike_2023-09-13-17-59-09",
+        "turnpike_2023-09-13-18-15-03",
+        "turnpike_flat_2023-09-12-13-11-44",
+        "turnpike_flat_2023-09-12-13-42-26",
+        "turnpike_flat_2023-09-12-14-16-06",
+        "turnpike_flat_2023-09-12-14-21-03",
+        "turnpike_skydio_2023-09-13-18-00-11",
+        "turnpike_skydio_2023-09-14-13-57-56",
+        "turnpike_to_gupta_flat_2023-09-12-14-31-21",
+        "turnpike_warehouse_2023-09-13-19-03-05",
+        "turnpike_warehouse_2023-09-14-14-05-14",
+        "turnpike_warehouse_2023-09-14-14-07-12",
+        "warehouse_gupta_2023-09-13-16-23-26",
+        "warehouse_gupta_2023-09-13-16-28-57",
+        "warehouse_to_fence_2023-09-12-10-19-17"
+      ],
+      "windows": 42875,
+      "input_sha256": "f283ada098456b4a2f7fe72df89ade37ecd4d2d9f81bd779ef8afb37fa7ffac4",
+      "evaluator_target_sha256": null
+    },
+    "validation": {
+      "runs": [
+        "2023-11-14-15-02-21_figure_8",
+        "figure_8_2023-09-14-11-37-49",
+        "figure_8_morning_2023-09-12-10-37-17",
+        "figure_8_morning_slow_2023-09-12-11-06-32",
+        "gupta_2023-09-14-11-12-19",
+        "meadows_2023-09-14-12-08-57",
+        "turnpike_2023-09-12-12-39-19",
+        "turnpike_2023-09-12-12-47-34",
+        "turnpike_2023-09-13-18-09-45",
+        "turnpike_flat_2023-09-12-13-08-55"
+      ],
+      "windows": 14186,
+      "input_sha256": "4009ecc339aefc4c0062089da5bd2152864d61b0f6bf23588ebbc15b7c3d5d9b",
+      "evaluator_target_sha256": null
+    },
+    "test_slag_heap": {
+      "runs": [
+        "slag_heap_2023-09-14-12-23-05",
+        "slag_heap_skydio_2023-09-14-12-32-13",
+        "slag_heap_skydio_2023-09-14-12-36-46"
+      ],
+      "windows": 1797,
+      "input_sha256": "e51338ed2ceb7e563f962d90bad56266fe4a59b242252ba87ac9cf73fb8d1325",
+      "evaluator_target_sha256": "c3c25e83debff9e615e2189cf4add36d505a2683c79b8109794a60016a9a67d2"
+    },
+    "test_damp": {
+      "runs": [
+        "sam_loop_2023-09-27-12-42-17",
+        "sam_loop_2023-09-27-13-04-54"
+      ],
+      "windows": 648,
+      "input_sha256": "943b8d01a978516649ad36ce717d6e3168c7ef844d199337d98d3518a2ccccd8",
+      "evaluator_target_sha256": "46cf162cd2009e95599640876f5db084722c617683487b90be53ffcff6f3a244"
+    }
+  },
+  "run_audit": [
+    {
+      "run": "2023-10-26-14-42-35_turnpike_afternoon_fall",
+      "split": "train",
+      "windows": 2463,
+      "duplicates_removed": {
+        "controls": 911,
+        "gps_odom": 1,
+        "multisense_imu": 206,
+        "shock_pos": 911,
+        "steering_angle": 3,
+        "wheel_rpm": 911
+      },
+      "grid_rows": 5040,
+      "feature_channels": 20
+    },
+    {
+      "run": "2023-11-02-16-00-43_down_meadows",
+      "split": "train",
+      "windows": 787,
+      "duplicates_removed": {
+        "controls": 145,
+        "gps_odom": 1,
+        "multisense_imu": 54,
+        "shock_pos": 145,
+        "steering_angle": 46,
+        "wheel_rpm": 145
+      },
+      "grid_rows": 2154,
+      "feature_channels": 20
+    },
+    {
+      "run": "2023-11-14-14-26-22_gupta",
+      "split": "train",
+      "windows": 837,
+      "duplicates_removed": {
+        "controls": 109,
+        "gps_odom": 0,
+        "multisense_imu": 325,
+        "shock_pos": 109,
+        "steering_angle": 0,
+        "wheel_rpm": 109
+      },
+      "grid_rows": 1703,
+      "feature_channels": 20
+    },
+    {
+      "run": "2023-11-14-14-34-53_gupta",
+      "split": "train",
+      "windows": 1290,
+      "duplicates_removed": {
+        "controls": 1031,
+        "gps_odom": 0,
+        "multisense_imu": 100,
+        "shock_pos": 1031,
+        "steering_angle": 0,
+        "wheel_rpm": 1031
+      },
+      "grid_rows": 2609,
+      "feature_channels": 20
+    },
+    {
+      "run": "2023-11-14-14-45-20_gupta",
+      "split": "train",
+      "windows": 797,
+      "duplicates_removed": {
+        "controls": 632,
+        "gps_odom": 0,
+        "multisense_imu": 9,
+        "shock_pos": 632,
+        "steering_angle": 0,
+        "wheel_rpm": 632
+      },
+      "grid_rows": 1624,
+      "feature_channels": 20
+    },
+    {
+      "run": "2023-11-14-14-52-22_gupta",
+      "split": "train",
+      "windows": 1658,
+      "duplicates_removed": {
+        "controls": 354,
+        "gps_odom": 1,
+        "multisense_imu": 127,
+        "shock_pos": 354,
+        "steering_angle": 0,
+        "wheel_rpm": 354
+      },
+      "grid_rows": 3345,
+      "feature_channels": 20
+    },
+    {
+      "run": "2023-11-14-15-02-21_figure_8",
+      "split": "validation",
+      "windows": 2506,
+      "duplicates_removed": {
+        "controls": 433,
+        "gps_odom": 0,
+        "multisense_imu": 40,
+        "shock_pos": 433,
+        "steering_angle": 3,
+        "wheel_rpm": 433
+      },
+      "grid_rows": 5074,
+      "feature_channels": 20
+    },
+    {
+      "run": "2023-11-14-15-11-49_rough_rider_turnpike_loop",
+      "split": "train",
+      "windows": 2319,
+      "duplicates_removed": {
+        "controls": 780,
+        "gps_odom": 1,
+        "multisense_imu": 112,
+        "shock_pos": 780,
+        "steering_angle": 0,
+        "wheel_rpm": 780
+      },
+      "grid_rows": 4668,
+      "feature_channels": 20
+    },
+    {
+      "run": "2023-11-14-15-22-01_figure_8",
+      "split": "train",
+      "windows": 1120,
+      "duplicates_removed": {
+        "controls": 207,
+        "gps_odom": 0,
+        "multisense_imu": 32,
+        "shock_pos": 207,
+        "steering_angle": 0,
+        "wheel_rpm": 207
+      },
+      "grid_rows": 2270,
+      "feature_channels": 20
+    },
+    {
+      "run": "figure_8_2023-09-13-17-23-35",
+      "split": "train",
+      "windows": 147,
+      "duplicates_removed": {
+        "controls": 28,
+        "gps_odom": 1,
+        "multisense_imu": 0,
+        "shock_pos": 28,
+        "steering_angle": 0,
+        "wheel_rpm": 28
+      },
+      "grid_rows": 322,
+      "feature_channels": 20
+    },
+    {
+      "run": "figure_8_2023-09-13-17-24-26",
+      "split": "train",
+      "windows": 3658,
+      "duplicates_removed": {
+        "controls": 930,
+        "gps_odom": 1,
+        "multisense_imu": 208,
+        "shock_pos": 930,
+        "steering_angle": 9,
+        "wheel_rpm": 930
+      },
+      "grid_rows": 7470,
+      "feature_channels": 20
+    },
+    {
+      "run": "figure_8_2023-09-14-11-37-49",
+      "split": "validation",
+      "windows": 1484,
+      "duplicates_removed": {
+        "controls": 933,
+        "gps_odom": 0,
+        "multisense_imu": 85,
+        "shock_pos": 933,
+        "steering_angle": 0,
+        "wheel_rpm": 933
+      },
+      "grid_rows": 2998,
+      "feature_channels": 20
+    },
+    {
+      "run": "figure_8_morning_2023-09-12-10-37-17",
+      "split": "validation",
+      "windows": 3068,
+      "duplicates_removed": {
+        "controls": 588,
+        "gps_odom": 1,
+        "multisense_imu": 197,
+        "shock_pos": 588,
+        "steering_angle": 16,
+        "wheel_rpm": 588
+      },
+      "grid_rows": 6230,
+      "feature_channels": 20
+    },
+    {
+      "run": "figure_8_morning_slow_2023-09-12-11-06-32",
+      "split": "validation",
+      "windows": 849,
+      "duplicates_removed": {
+        "controls": 1768,
+        "gps_odom": 0,
+        "multisense_imu": 36,
+        "shock_pos": 1768,
+        "steering_angle": 3,
+        "wheel_rpm": 1768
+      },
+      "grid_rows": 1806,
+      "feature_channels": 20
+    },
+    {
+      "run": "figure_8_to_turnpike_2023-09-12-12-22-45",
+      "split": "train",
+      "windows": 1354,
+      "duplicates_removed": {
+        "controls": 1208,
+        "gps_odom": 290,
+        "multisense_imu": 34,
+        "shock_pos": 1140,
+        "steering_angle": 132,
+        "wheel_rpm": 946
+      },
+      "grid_rows": 2992,
+      "feature_channels": 20
+    },
+    {
+      "run": "figure_8_to_turnpike_pt2_2023-09-12-12-28-48",
+      "split": "train",
+      "windows": 1362,
+      "duplicates_removed": {
+        "controls": 337,
+        "gps_odom": 306,
+        "multisense_imu": 74,
+        "shock_pos": 254,
+        "steering_angle": 61,
+        "wheel_rpm": 254
+      },
+      "grid_rows": 2888,
+      "feature_channels": 20
+    },
+    {
+      "run": "figure_8_turnpike_2023-09-13-17-40-27",
+      "split": "train",
+      "windows": 1351,
+      "duplicates_removed": {
+        "controls": 313,
+        "gps_odom": 311,
+        "multisense_imu": 79,
+        "shock_pos": 313,
+        "steering_angle": 74,
+        "wheel_rpm": 313
+      },
+      "grid_rows": 3020,
+      "feature_channels": 20
+    },
+    {
+      "run": "figure_8_turnpike_2023-09-13-17-47-52",
+      "split": "train",
+      "windows": 16,
+      "duplicates_removed": {
+        "controls": 3,
+        "gps_odom": 52,
+        "multisense_imu": 0,
+        "shock_pos": 3,
+        "steering_angle": 0,
+        "wheel_rpm": 3
+      },
+      "grid_rows": 71,
+      "feature_channels": 20
+    },
+    {
+      "run": "gupta_2023-09-14-10-46-16",
+      "split": "train",
+      "windows": 33,
+      "duplicates_removed": {
+        "controls": 6,
+        "gps_odom": 1,
+        "multisense_imu": 0,
+        "shock_pos": 6,
+        "steering_angle": 0,
+        "wheel_rpm": 6
+      },
+      "grid_rows": 95,
+      "feature_channels": 20
+    },
+    {
+      "run": "gupta_2023-09-14-10-47-09",
+      "split": "train",
+      "windows": 2558,
+      "duplicates_removed": {
+        "controls": 4826,
+        "gps_odom": 2,
+        "multisense_imu": 217,
+        "shock_pos": 4826,
+        "steering_angle": 13,
+        "wheel_rpm": 4826
+      },
+      "grid_rows": 5281,
+      "feature_channels": 20
+    },
+    {
+      "run": "gupta_2023-09-14-11-12-19",
+      "split": "validation",
+      "windows": 2150,
+      "duplicates_removed": {
+        "controls": 689,
+        "gps_odom": 1,
+        "multisense_imu": 117,
+        "shock_pos": 689,
+        "steering_angle": 4,
+        "wheel_rpm": 689
+      },
+      "grid_rows": 4365,
+      "feature_channels": 20
+    },
+    {
+      "run": "gupta_skydio_2023-09-14-11-03-09",
+      "split": "train",
+      "windows": 718,
+      "duplicates_removed": {
+        "controls": 223,
+        "gps_odom": 1,
+        "multisense_imu": 20,
+        "shock_pos": 223,
+        "steering_angle": 0,
+        "wheel_rpm": 223
+      },
+      "grid_rows": 1466,
+      "feature_channels": 20
+    },
+    {
+      "run": "gupta_warehouse_2023-09-13-19-12-49",
+      "split": "train",
+      "windows": 366,
+      "duplicates_removed": {
+        "controls": 109,
+        "gps_odom": 289,
+        "multisense_imu": 8,
+        "shock_pos": 109,
+        "steering_angle": 67,
+        "wheel_rpm": 109
+      },
+      "grid_rows": 831,
+      "feature_channels": 20
+    },
+    {
+      "run": "meadows_2023-09-14-11-45-21",
+      "split": "train",
+      "windows": 78,
+      "duplicates_removed": {
+        "controls": 15,
+        "gps_odom": 0,
+        "multisense_imu": 2,
+        "shock_pos": 15,
+        "steering_angle": 0,
+        "wheel_rpm": 15
+      },
+      "grid_rows": 186,
+      "feature_channels": 20
+    },
+    {
+      "run": "meadows_2023-09-14-12-07-28",
+      "split": "train",
+      "windows": 208,
+      "duplicates_removed": {
+        "controls": 567,
+        "gps_odom": 251,
+        "multisense_imu": 18,
+        "shock_pos": 529,
+        "steering_angle": 60,
+        "wheel_rpm": 508
+      },
+      "grid_rows": 506,
+      "feature_channels": 20
+    },
+    {
+      "run": "meadows_2023-09-14-12-08-57",
+      "split": "validation",
+      "windows": 1669,
+      "duplicates_removed": {
+        "controls": 3003,
+        "gps_odom": 0,
+        "multisense_imu": 62,
+        "shock_pos": 3003,
+        "steering_angle": 0,
+        "wheel_rpm": 3003
+      },
+      "grid_rows": 3366,
+      "feature_channels": 20
+    },
+    {
+      "run": "meadows_2023-09-14-12-17-25",
+      "split": "train",
+      "windows": 0,
+      "duplicates_removed": {
+        "controls": 3,
+        "gps_odom": 20,
+        "multisense_imu": 0,
+        "shock_pos": 3,
+        "steering_angle": 0,
+        "wheel_rpm": 3
+      },
+      "grid_rows": 28,
+      "feature_channels": 20
+    },
+    {
+      "run": "meadows_2023-09-14-12-18-22",
+      "split": "train",
+      "windows": 1039,
+      "duplicates_removed": {
+        "controls": 148,
+        "gps_odom": 0,
+        "multisense_imu": 39,
+        "shock_pos": 148,
+        "steering_angle": 17,
+        "wheel_rpm": 148
+      },
+      "grid_rows": 2254,
+      "feature_channels": 20
+    },
+    {
+      "run": "sam_loop_2023-09-27-12-42-17",
+      "split": "test_damp",
+      "windows": 37,
+      "duplicates_removed": {
+        "controls": 6,
+        "gps_odom": 0,
+        "multisense_imu": 30,
+        "shock_pos": 6,
+        "steering_angle": 0,
+        "wheel_rpm": 6
+      },
+      "grid_rows": 102,
+      "feature_channels": 20
+    },
+    {
+      "run": "sam_loop_2023-09-27-13-04-54",
+      "split": "test_damp",
+      "windows": 611,
+      "duplicates_removed": {
+        "controls": 191,
+        "gps_odom": 0,
+        "multisense_imu": 77,
+        "shock_pos": 191,
+        "steering_angle": 0,
+        "wheel_rpm": 191
+      },
+      "grid_rows": 1251,
+      "feature_channels": 20
+    },
+    {
+      "run": "slag_heap_2023-09-14-12-23-05",
+      "split": "test_slag_heap",
+      "windows": 825,
+      "duplicates_removed": {
+        "controls": 970,
+        "gps_odom": 0,
+        "multisense_imu": 65,
+        "shock_pos": 970,
+        "steering_angle": 2,
+        "wheel_rpm": 970
+      },
+      "grid_rows": 1710,
+      "feature_channels": 20
+    },
+    {
+      "run": "slag_heap_skydio_2023-09-14-12-32-13",
+      "split": "test_slag_heap",
+      "windows": 868,
+      "duplicates_removed": {
+        "controls": 178,
+        "gps_odom": 36,
+        "multisense_imu": 30,
+        "shock_pos": 178,
+        "steering_angle": 3,
+        "wheel_rpm": 178
+      },
+      "grid_rows": 1804,
+      "feature_channels": 20
+    },
+    {
+      "run": "slag_heap_skydio_2023-09-14-12-36-46",
+      "split": "test_slag_heap",
+      "windows": 104,
+      "duplicates_removed": {
+        "controls": 15,
+        "gps_odom": 34,
+        "multisense_imu": 7,
+        "shock_pos": 15,
+        "steering_angle": 5,
+        "wheel_rpm": 15
+      },
+      "grid_rows": 243,
+      "feature_channels": 20
+    },
+    {
+      "run": "turnpike_2023-09-12-12-39-19",
+      "split": "validation",
+      "windows": 665,
+      "duplicates_removed": {
+        "controls": 627,
+        "gps_odom": 670,
+        "multisense_imu": 740,
+        "shock_pos": 488,
+        "steering_angle": 307,
+        "wheel_rpm": 539
+      },
+      "grid_rows": 1763,
+      "feature_channels": 20
+    },
+    {
+      "run": "turnpike_2023-09-12-12-42-49",
+      "split": "train",
+      "windows": 1059,
+      "duplicates_removed": {
+        "controls": 212,
+        "gps_odom": 0,
+        "multisense_imu": 69,
+        "shock_pos": 212,
+        "steering_angle": 1,
+        "wheel_rpm": 212
+      },
+      "grid_rows": 2178,
+      "feature_channels": 20
+    },
+    {
+      "run": "turnpike_2023-09-12-12-47-34",
+      "split": "validation",
+      "windows": 393,
+      "duplicates_removed": {
+        "controls": 120,
+        "gps_odom": 0,
+        "multisense_imu": 1,
+        "shock_pos": 120,
+        "steering_angle": 39,
+        "wheel_rpm": 120
+      },
+      "grid_rows": 930,
+      "feature_channels": 20
+    },
+    {
+      "run": "turnpike_2023-09-12-12-53-32",
+      "split": "train",
+      "windows": 4292,
+      "duplicates_removed": {
+        "controls": 1340,
+        "gps_odom": 2,
+        "multisense_imu": 146,
+        "shock_pos": 1340,
+        "steering_angle": 35,
+        "wheel_rpm": 1340
+      },
+      "grid_rows": 8712,
+      "feature_channels": 20
+    },
+    {
+      "run": "turnpike_2023-09-13-17-59-09",
+      "split": "train",
+      "windows": 151,
+      "duplicates_removed": {
+        "controls": 21,
+        "gps_odom": 0,
+        "multisense_imu": 2,
+        "shock_pos": 21,
+        "steering_angle": 0,
+        "wheel_rpm": 21
+      },
+      "grid_rows": 330,
+      "feature_channels": 20
+    },
+    {
+      "run": "turnpike_2023-09-13-18-09-45",
+      "split": "validation",
+      "windows": 1116,
+      "duplicates_removed": {
+        "controls": 229,
+        "gps_odom": 238,
+        "multisense_imu": 26,
+        "shock_pos": 229,
+        "steering_angle": 59,
+        "wheel_rpm": 229
+      },
+      "grid_rows": 2353,
+      "feature_channels": 20
+    },
+    {
+      "run": "turnpike_2023-09-13-18-15-03",
+      "split": "train",
+      "windows": 1134,
+      "duplicates_removed": {
+        "controls": 1869,
+        "gps_odom": 1,
+        "multisense_imu": 27,
+        "shock_pos": 1869,
+        "steering_angle": 2,
+        "wheel_rpm": 1869
+      },
+      "grid_rows": 2329,
+      "feature_channels": 20
+    },
+    {
+      "run": "turnpike_flat_2023-09-12-13-08-55",
+      "split": "validation",
+      "windows": 286,
+      "duplicates_removed": {
+        "controls": 134,
+        "gps_odom": 275,
+        "multisense_imu": 2,
+        "shock_pos": 134,
+        "steering_angle": 69,
+        "wheel_rpm": 134
+      },
+      "grid_rows": 667,
+      "feature_channels": 20
+    },
+    {
+      "run": "turnpike_flat_2023-09-12-13-11-44",
+      "split": "train",
+      "windows": 1423,
+      "duplicates_removed": {
+        "controls": 1781,
+        "gps_odom": 0,
+        "multisense_imu": 41,
+        "shock_pos": 1781,
+        "steering_angle": 4,
+        "wheel_rpm": 1781
+      },
+      "grid_rows": 2875,
+      "feature_channels": 20
+    },
+    {
+      "run": "turnpike_flat_2023-09-12-13-42-26",
+      "split": "train",
+      "windows": 2255,
+      "duplicates_removed": {
+        "controls": 432,
+        "gps_odom": 2,
+        "multisense_imu": 112,
+        "shock_pos": 432,
+        "steering_angle": 9,
+        "wheel_rpm": 432
+      },
+      "grid_rows": 4667,
+      "feature_channels": 20
+    },
+    {
+      "run": "turnpike_flat_2023-09-12-14-16-06",
+      "split": "train",
+      "windows": 88,
+      "duplicates_removed": {
+        "controls": 23,
+        "gps_odom": 225,
+        "multisense_imu": 0,
+        "shock_pos": 23,
+        "steering_angle": 74,
+        "wheel_rpm": 92
+      },
+      "grid_rows": 351,
+      "feature_channels": 20
+    },
+    {
+      "run": "turnpike_flat_2023-09-12-14-21-03",
+      "split": "train",
+      "windows": 1161,
+      "duplicates_removed": {
+        "controls": 238,
+        "gps_odom": 0,
+        "multisense_imu": 43,
+        "shock_pos": 238,
+        "steering_angle": 11,
+        "wheel_rpm": 238
+      },
+      "grid_rows": 2389,
+      "feature_channels": 20
+    },
+    {
+      "run": "turnpike_skydio_2023-09-13-18-00-11",
+      "split": "train",
+      "windows": 1823,
+      "duplicates_removed": {
+        "controls": 223,
+        "gps_odom": 1,
+        "multisense_imu": 114,
+        "shock_pos": 223,
+        "steering_angle": 3,
+        "wheel_rpm": 223
+      },
+      "grid_rows": 3674,
+      "feature_channels": 20
+    },
+    {
+      "run": "turnpike_skydio_2023-09-14-13-57-56",
+      "split": "train",
+      "windows": 331,
+      "duplicates_removed": {
+        "controls": 103,
+        "gps_odom": 0,
+        "multisense_imu": 5,
+        "shock_pos": 103,
+        "steering_angle": 0,
+        "wheel_rpm": 103
+      },
+      "grid_rows": 690,
+      "feature_channels": 20
+    },
+    {
+      "run": "turnpike_to_gupta_flat_2023-09-12-14-31-21",
+      "split": "train",
+      "windows": 526,
+      "duplicates_removed": {
+        "controls": 84,
+        "gps_odom": 0,
+        "multisense_imu": 7,
+        "shock_pos": 84,
+        "steering_angle": 0,
+        "wheel_rpm": 84
+      },
+      "grid_rows": 1080,
+      "feature_channels": 20
+    },
+    {
+      "run": "turnpike_warehouse_2023-09-13-19-03-05",
+      "split": "train",
+      "windows": 1499,
+      "duplicates_removed": {
+        "controls": 331,
+        "gps_odom": 0,
+        "multisense_imu": 32,
+        "shock_pos": 331,
+        "steering_angle": 11,
+        "wheel_rpm": 331
+      },
+      "grid_rows": 3049,
+      "feature_channels": 20
+    },
+    {
+      "run": "turnpike_warehouse_2023-09-14-14-05-14",
+      "split": "train",
+      "windows": 92,
+      "duplicates_removed": {
+        "controls": 16,
+        "gps_odom": 34,
+        "multisense_imu": 0,
+        "shock_pos": 16,
+        "steering_angle": 0,
+        "wheel_rpm": 16
+      },
+      "grid_rows": 221,
+      "feature_channels": 20
+    },
+    {
+      "run": "turnpike_warehouse_2023-09-14-14-07-12",
+      "split": "train",
+      "windows": 1388,
+      "duplicates_removed": {
+        "controls": 446,
+        "gps_odom": 1452,
+        "multisense_imu": 367,
+        "shock_pos": 446,
+        "steering_angle": 269,
+        "wheel_rpm": 446
+      },
+      "grid_rows": 3137,
+      "feature_channels": 20
+    },
+    {
+      "run": "warehouse_gupta_2023-09-13-16-23-26",
+      "split": "train",
+      "windows": 191,
+      "duplicates_removed": {
+        "controls": 32,
+        "gps_odom": 34,
+        "multisense_imu": 2,
+        "shock_pos": 32,
+        "steering_angle": 0,
+        "wheel_rpm": 32
+      },
+      "grid_rows": 447,
+      "feature_channels": 20
+    },
+    {
+      "run": "warehouse_gupta_2023-09-13-16-28-57",
+      "split": "train",
+      "windows": 901,
+      "duplicates_removed": {
+        "controls": 176,
+        "gps_odom": 1,
+        "multisense_imu": 49,
+        "shock_pos": 176,
+        "steering_angle": 0,
+        "wheel_rpm": 176
+      },
+      "grid_rows": 1830,
+      "feature_channels": 20
+    },
+    {
+      "run": "warehouse_to_fence_2023-09-12-10-19-17",
+      "split": "train",
+      "windows": 402,
+      "duplicates_removed": {
+        "controls": 53,
+        "gps_odom": 0,
+        "multisense_imu": 42,
+        "shock_pos": 53,
+        "steering_angle": 2,
+        "wheel_rpm": 53
+      },
+      "grid_rows": 833,
+      "feature_channels": 20
+    }
+  ]
+}

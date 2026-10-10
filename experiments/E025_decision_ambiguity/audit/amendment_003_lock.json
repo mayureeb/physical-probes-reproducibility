@@ -1,0 +1,7 @@
+{
+  "status": "execution_semantics_locked_before_data",
+  "locked_utc": "2026-09-09T05:13:11Z",
+  "e025_data_existed_at_lock": false,
+  "e025_result_existed_at_lock": false,
+  "amendment_sha256": "6856f02f544b506987e235a2ce093e48887e0d3f4b3a8ad5b106e269d551f6c7"
+}

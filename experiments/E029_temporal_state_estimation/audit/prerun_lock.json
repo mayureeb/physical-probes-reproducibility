@@ -1,0 +1,32 @@
+{
+  "status": "prospective_lock_before_data_generation",
+  "locked_at_utc": "2026-09-10T16:40:27Z",
+  "splits": {
+    "train": {"seed": 29029, "worlds": 4096},
+    "validation": {"seed": 29129, "worlds": 1024},
+    "test": {"seed": 29229, "worlds": 2048}
+  },
+  "probe": "fixed_negative_first",
+  "observation_budgets": [9, 33, 101, 401],
+  "primary_comparisons": [
+    "budget_33_minus_9",
+    "budget_401_minus_9",
+    "true_state_minus_401"
+  ],
+  "bootstrap_replicates": 20000,
+  "source_sha256": {
+    "protocol": "d557cdab0f9c0b8aaca46fd89e9e7a5f58ee300763fe317f0b9753a2fcf11a74",
+    "generate_data": "41fe89be07d7168a9c7c283296504058de030c0407e8631c4084ac60c13c0fb2",
+    "fit_estimators": "e8342151978ca73aa1bd725e2697cffbf813a3f8eee548abbd490a0d1195d6aa",
+    "plan_before_targets": "bc8d73941576a4578ddcda7077979822ad12a8bd54e6a776ac285157120d5c76",
+    "evaluate": "e86b3edf8aa3dd93d7b0bcdc9c0120f72e1648d4b99ca1434eca767ad77019ed"
+  },
+  "local_environment": {
+    "python": "3.12.4",
+    "scikit_learn": "1.4.2",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "joblib": "1.4.2"
+  },
+  "test_targets_accessed": false
+}

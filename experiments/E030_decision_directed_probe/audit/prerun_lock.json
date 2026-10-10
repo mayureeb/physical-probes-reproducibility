@@ -1,0 +1,12 @@
+{
+  "status": "protocol_and_source_locked_before_candidate_generation",
+  "locked_date": "2026-09-10",
+  "protocol_sha256": "e76628b8e1251f5f96dbdab8002f1d30af102a8f20a6141f3c6cb23787ccf47b",
+  "source_sha256": {
+    "probe_candidates.py": "8b878d36ae681544492cce489685557bfc7b7153fcab3f671d407da635d631df",
+    "search_candidates.py": "360d355b115b921f003b6fb1fed2aeac99700b8d8bc4862d95b59312c2d34d69"
+  },
+  "candidate_data_generated": false,
+  "confirmatory_data_generated": false,
+  "test_targets_accessed": false
+}

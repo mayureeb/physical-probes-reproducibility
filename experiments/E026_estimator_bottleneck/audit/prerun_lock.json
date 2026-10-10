@@ -1,0 +1,7 @@
+{
+  "status": "locked_before_data_generation",
+  "protocol_sha256": "2d1beab958824329456fff704ed84ed48906f488329d21018b55a1537b8015e4",
+  "build_source_sha256": "83f9c9a1704bcf8cb7041949414ea2c195c83a781b0634e7fc585f07f571c881",
+  "analysis_source_sha256": "2d6fcdd3f157658be1b23d33a0fd0670f4ba5b4fdad6fa35b4788885e89f665c",
+  "note": "Recorded locally before any E026 world was generated."
+}

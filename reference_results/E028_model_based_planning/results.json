@@ -1,0 +1,92 @@
+{
+  "status": "model_based_planning_evaluated",
+  "worlds": 2048,
+  "test_seed": 28228,
+  "action_artifact_sha256": "71dfd7143b7f1e2a7333c1fbccab4988bae652f7da4ce2bd5348df5a43f23b14",
+  "target_sha256": "84cdc20aba9bededf03633d1e9d144090f8ed63e36c3afd3f471ad547494cadd",
+  "comparisons": {
+    "half_then_full_forward__estimated_planner_minus_learned_action": {
+      "first_completion": 0.2587890625,
+      "second_completion": 0.24755859375,
+      "difference": 0.01123046875,
+      "bootstrap_95_interval": [
+        -0.0068359375,
+        0.02978515625
+      ],
+      "discordant_worlds": 361,
+      "exact_two_sided_p": 0.2468701597427054,
+      "holm_adjusted_p": 0.2468701597427054
+    },
+    "half_then_full_forward__true_minus_estimated_planner": {
+      "first_completion": 1.0,
+      "second_completion": 0.2587890625,
+      "difference": 0.7412109375,
+      "bootstrap_95_interval": [
+        0.72216796875,
+        0.76025390625
+      ],
+      "discordant_worlds": 1518,
+      "exact_two_sided_p": 0.0,
+      "holm_adjusted_p": 0.0
+    },
+    "fixed_negative_first__estimated_planner_minus_learned_action": {
+      "first_completion": 0.29052734375,
+      "second_completion": 0.2666015625,
+      "difference": 0.02392578125,
+      "bootstrap_95_interval": [
+        0.0048828125,
+        0.04248046875
+      ],
+      "discordant_worlds": 381,
+      "exact_two_sided_p": 0.01382248410925229,
+      "holm_adjusted_p": 0.02764496821850458
+    },
+    "fixed_negative_first__true_minus_estimated_planner": {
+      "first_completion": 1.0,
+      "second_completion": 0.29052734375,
+      "difference": 0.70947265625,
+      "bootstrap_95_interval": [
+        0.689453125,
+        0.72900390625
+      ],
+      "discordant_worlds": 1453,
+      "exact_two_sided_p": 0.0,
+      "holm_adjusted_p": 0.0
+    }
+  },
+  "all_locked_hypotheses_confirmed": false,
+  "descriptive": {
+    "half_then_full_forward__direct": {
+      "completion": 0.2109375,
+      "mean_landing_error_m": 0.2304134964942932
+    },
+    "half_then_full_forward__learned_action": {
+      "completion": 0.24755859375,
+      "mean_landing_error_m": 0.18958833813667297
+    },
+    "half_then_full_forward__estimated_planner": {
+      "completion": 0.2587890625,
+      "mean_landing_error_m": 0.17702986299991608
+    },
+    "half_then_full_forward__true_planner": {
+      "completion": 1.0,
+      "mean_landing_error_m": 8.154311217367649e-05
+    },
+    "fixed_negative_first__direct": {
+      "completion": 0.2490234375,
+      "mean_landing_error_m": 0.19426751136779785
+    },
+    "fixed_negative_first__learned_action": {
+      "completion": 0.2666015625,
+      "mean_landing_error_m": 0.1681528389453888
+    },
+    "fixed_negative_first__estimated_planner": {
+      "completion": 0.29052734375,
+      "mean_landing_error_m": 0.15322886407375336
+    },
+    "fixed_negative_first__true_planner": {
+      "completion": 1.0,
+      "mean_landing_error_m": 8.160618017427623e-05
+    }
+  }
+}

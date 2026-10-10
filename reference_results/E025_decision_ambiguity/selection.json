@@ -1,0 +1,657 @@
+{
+  "status": "selected_without_test_targets",
+  "caps": {
+    "path_displacement": 0.35346633195877075,
+    "absolute_work": 2.544015645980835
+  },
+  "costs": {
+    "passive": {
+      "path_cap_violations": 0,
+      "work_cap_violations": 0,
+      "peak_speed_max": 0.0
+    },
+    "fixed_positive_first": {
+      "path_cap_violations": 0,
+      "work_cap_violations": 0,
+      "peak_speed_max": 1.082088828086853
+    },
+    "half_then_full_forward": {
+      "path_cap_violations": 0,
+      "work_cap_violations": 0,
+      "peak_speed_max": 1.0762231349945068
+    },
+    "fixed_negative_first": {
+      "path_cap_violations": 0,
+      "work_cap_violations": 0,
+      "peak_speed_max": 1.082088828086853
+    },
+    "multisine": {
+      "path_cap_violations": 0,
+      "work_cap_violations": 0,
+      "peak_speed_max": 0.9335891008377075
+    },
+    "random_piecewise": {
+      "path_cap_violations": 0,
+      "work_cap_violations": 0,
+      "peak_speed_max": 0.879953920841217
+    }
+  },
+  "d_optimal_scores": {
+    "fixed_positive_first": -41.38858300870638,
+    "half_then_full_forward": -38.408562868560544,
+    "fixed_negative_first": -41.38858300870638,
+    "multisine": -37.69773474296133,
+    "random_piecewise": -40.8637259055524
+  },
+  "d_optimal_probe": "multisine",
+  "observation": {
+    "velocity_sigma": 0.01,
+    "force_sigma": 0.04,
+    "force_rho": 0.8,
+    "trace_indices": [
+      0,
+      50,
+      100,
+      150,
+      200,
+      250,
+      300,
+      350,
+      400
+    ]
+  },
+  "probes": {
+    "passive": {
+      "trials": {
+        "ridge_0.1": {
+          "completion": 0.125,
+          "speed_mae": 0.3080790042877197
+        },
+        "ridge_1.0": {
+          "completion": 0.125,
+          "speed_mae": 0.3080165982246399
+        },
+        "ridge_10.0": {
+          "completion": 0.125,
+          "speed_mae": 0.30746713280677795
+        },
+        "ridge_100.0": {
+          "completion": 0.1171875,
+          "speed_mae": 0.30609411001205444
+        },
+        "tree_2": {
+          "completion": 0.1171875,
+          "speed_mae": 0.31670827441848814
+        },
+        "tree_4": {
+          "completion": 0.125,
+          "speed_mae": 0.3072649404406548
+        },
+        "tree_8": {
+          "completion": 0.1640625,
+          "speed_mae": 0.30300393360666783
+        },
+        "tree_16": {
+          "completion": 0.125,
+          "speed_mae": 0.29859280660526766
+        },
+        "random_0.1": {
+          "completion": 0.0859375,
+          "speed_mae": 0.42880651354789734
+        },
+        "random_1.0": {
+          "completion": 0.0859375,
+          "speed_mae": 0.3951930105686188
+        },
+        "random_10.0": {
+          "completion": 0.0859375,
+          "speed_mae": 0.3395652770996094
+        },
+        "random_100.0": {
+          "completion": 0.109375,
+          "speed_mae": 0.30764007568359375
+        }
+      },
+      "gru_seeds": [
+        {
+          "seed": 25,
+          "epoch": 9,
+          "completion": 0.1640625,
+          "speed_mae": 0.29353368282318115
+        },
+        {
+          "seed": 50,
+          "epoch": 9,
+          "completion": 0.1484375,
+          "speed_mae": 0.28877755999565125
+        },
+        {
+          "seed": 75,
+          "epoch": 14,
+          "completion": 0.1484375,
+          "speed_mae": 0.2906742990016937
+        }
+      ],
+      "validation": {
+        "ridge": {
+          "completion": 0.125,
+          "speed_mae": 0.30746713280677795
+        },
+        "tree": {
+          "completion": 0.15625,
+          "speed_mae": 0.3033119436975068
+        },
+        "random_feature": {
+          "completion": 0.109375,
+          "speed_mae": 0.30764007568359375
+        },
+        "nearest": {
+          "completion": 0.0703125,
+          "speed_mae": 0.40102243423461914
+        },
+        "gru_ensemble": {
+          "completion": 0.1640625,
+          "speed_mae": 0.2899453341960907
+        }
+      },
+      "primary_method": "gru_ensemble",
+      "ridge_alpha": 10.0,
+      "tree_leaf": 8,
+      "random_alpha": 100.0
+    },
+    "fixed_positive_first": {
+      "trials": {
+        "ridge_0.1": {
+          "completion": 0.2578125,
+          "speed_mae": 0.15153808891773224
+        },
+        "ridge_1.0": {
+          "completion": 0.234375,
+          "speed_mae": 0.15466904640197754
+        },
+        "ridge_10.0": {
+          "completion": 0.296875,
+          "speed_mae": 0.16633537411689758
+        },
+        "ridge_100.0": {
+          "completion": 0.171875,
+          "speed_mae": 0.2035641372203827
+        },
+        "tree_2": {
+          "completion": 0.1953125,
+          "speed_mae": 0.19579686112701894
+        },
+        "tree_4": {
+          "completion": 0.1484375,
+          "speed_mae": 0.20063759320883234
+        },
+        "tree_8": {
+          "completion": 0.1328125,
+          "speed_mae": 0.209751767475378
+        },
+        "tree_16": {
+          "completion": 0.140625,
+          "speed_mae": 0.22061413526112084
+        },
+        "random_0.1": {
+          "completion": 0.1953125,
+          "speed_mae": 0.16065680980682373
+        },
+        "random_1.0": {
+          "completion": 0.203125,
+          "speed_mae": 0.14538487792015076
+        },
+        "random_10.0": {
+          "completion": 0.21875,
+          "speed_mae": 0.15423375368118286
+        },
+        "random_100.0": {
+          "completion": 0.234375,
+          "speed_mae": 0.17626026272773743
+        }
+      },
+      "gru_seeds": [
+        {
+          "seed": 25,
+          "epoch": 53,
+          "completion": 0.1796875,
+          "speed_mae": 0.2225920557975769
+        },
+        {
+          "seed": 50,
+          "epoch": 47,
+          "completion": 0.1796875,
+          "speed_mae": 0.2395213544368744
+        },
+        {
+          "seed": 75,
+          "epoch": 48,
+          "completion": 0.1796875,
+          "speed_mae": 0.23512735962867737
+        }
+      ],
+      "validation": {
+        "ridge": {
+          "completion": 0.296875,
+          "speed_mae": 0.16633537411689758
+        },
+        "tree": {
+          "completion": 0.1796875,
+          "speed_mae": 0.19586873988155276
+        },
+        "random_feature": {
+          "completion": 0.234375,
+          "speed_mae": 0.17626026272773743
+        },
+        "nearest": {
+          "completion": 0.140625,
+          "speed_mae": 0.3120431900024414
+        },
+        "gru_ensemble": {
+          "completion": 0.171875,
+          "speed_mae": 0.22851970791816711
+        }
+      },
+      "primary_method": "ridge",
+      "ridge_alpha": 10.0,
+      "tree_leaf": 2,
+      "random_alpha": 100.0
+    },
+    "half_then_full_forward": {
+      "trials": {
+        "ridge_0.1": {
+          "completion": 0.2421875,
+          "speed_mae": 0.17079555988311768
+        },
+        "ridge_1.0": {
+          "completion": 0.25,
+          "speed_mae": 0.16881299018859863
+        },
+        "ridge_10.0": {
+          "completion": 0.171875,
+          "speed_mae": 0.18738627433776855
+        },
+        "ridge_100.0": {
+          "completion": 0.15625,
+          "speed_mae": 0.21024659276008606
+        },
+        "tree_2": {
+          "completion": 0.1484375,
+          "speed_mae": 0.21191082103177905
+        },
+        "tree_4": {
+          "completion": 0.15625,
+          "speed_mae": 0.21357554611860818
+        },
+        "tree_8": {
+          "completion": 0.171875,
+          "speed_mae": 0.21751708322942945
+        },
+        "tree_16": {
+          "completion": 0.1484375,
+          "speed_mae": 0.2224642368363482
+        },
+        "random_0.1": {
+          "completion": 0.125,
+          "speed_mae": 0.2109174132347107
+        },
+        "random_1.0": {
+          "completion": 0.2265625,
+          "speed_mae": 0.17509496212005615
+        },
+        "random_10.0": {
+          "completion": 0.21875,
+          "speed_mae": 0.16849777102470398
+        },
+        "random_100.0": {
+          "completion": 0.1875,
+          "speed_mae": 0.1873760223388672
+        }
+      },
+      "gru_seeds": [
+        {
+          "seed": 25,
+          "epoch": 66,
+          "completion": 0.1953125,
+          "speed_mae": 0.20342561602592468
+        },
+        {
+          "seed": 50,
+          "epoch": 72,
+          "completion": 0.203125,
+          "speed_mae": 0.2044823169708252
+        },
+        {
+          "seed": 75,
+          "epoch": 70,
+          "completion": 0.1875,
+          "speed_mae": 0.20527616143226624
+        }
+      ],
+      "validation": {
+        "ridge": {
+          "completion": 0.25,
+          "speed_mae": 0.16881299018859863
+        },
+        "tree": {
+          "completion": 0.1484375,
+          "speed_mae": 0.21767942681649927
+        },
+        "random_feature": {
+          "completion": 0.2265625,
+          "speed_mae": 0.17509496212005615
+        },
+        "nearest": {
+          "completion": 0.1875,
+          "speed_mae": 0.2808837890625
+        },
+        "gru_ensemble": {
+          "completion": 0.1640625,
+          "speed_mae": 0.2025338113307953
+        }
+      },
+      "primary_method": "ridge",
+      "ridge_alpha": 1.0,
+      "tree_leaf": 8,
+      "random_alpha": 1.0
+    },
+    "fixed_negative_first": {
+      "trials": {
+        "ridge_0.1": {
+          "completion": 0.2734375,
+          "speed_mae": 0.14125260710716248
+        },
+        "ridge_1.0": {
+          "completion": 0.2734375,
+          "speed_mae": 0.14437943696975708
+        },
+        "ridge_10.0": {
+          "completion": 0.1875,
+          "speed_mae": 0.1619030386209488
+        },
+        "ridge_100.0": {
+          "completion": 0.1875,
+          "speed_mae": 0.19610220193862915
+        },
+        "tree_2": {
+          "completion": 0.1875,
+          "speed_mae": 0.18685349030420184
+        },
+        "tree_4": {
+          "completion": 0.1640625,
+          "speed_mae": 0.1941361686775211
+        },
+        "tree_8": {
+          "completion": 0.1640625,
+          "speed_mae": 0.2029329081158325
+        },
+        "tree_16": {
+          "completion": 0.1640625,
+          "speed_mae": 0.2141654774902546
+        },
+        "random_0.1": {
+          "completion": 0.203125,
+          "speed_mae": 0.16265851259231567
+        },
+        "random_1.0": {
+          "completion": 0.2734375,
+          "speed_mae": 0.13193494081497192
+        },
+        "random_10.0": {
+          "completion": 0.3203125,
+          "speed_mae": 0.1269250512123108
+        },
+        "random_100.0": {
+          "completion": 0.2890625,
+          "speed_mae": 0.1522754728794098
+        }
+      },
+      "gru_seeds": [
+        {
+          "seed": 25,
+          "epoch": 54,
+          "completion": 0.1796875,
+          "speed_mae": 0.22384364902973175
+        },
+        {
+          "seed": 50,
+          "epoch": 50,
+          "completion": 0.1875,
+          "speed_mae": 0.23111370205879211
+        },
+        {
+          "seed": 75,
+          "epoch": 47,
+          "completion": 0.1796875,
+          "speed_mae": 0.23607590794563293
+        }
+      ],
+      "validation": {
+        "ridge": {
+          "completion": 0.2734375,
+          "speed_mae": 0.14125260710716248
+        },
+        "tree": {
+          "completion": 0.1640625,
+          "speed_mae": 0.1879730165237561
+        },
+        "random_feature": {
+          "completion": 0.3203125,
+          "speed_mae": 0.1269250512123108
+        },
+        "nearest": {
+          "completion": 0.1328125,
+          "speed_mae": 0.27460169792175293
+        },
+        "gru_ensemble": {
+          "completion": 0.1875,
+          "speed_mae": 0.2284088432788849
+        }
+      },
+      "primary_method": "random_feature",
+      "ridge_alpha": 0.1,
+      "tree_leaf": 2,
+      "random_alpha": 10.0
+    },
+    "multisine": {
+      "trials": {
+        "ridge_0.1": {
+          "completion": 0.1640625,
+          "speed_mae": 0.19175153970718384
+        },
+        "ridge_1.0": {
+          "completion": 0.1796875,
+          "speed_mae": 0.20256780087947845
+        },
+        "ridge_10.0": {
+          "completion": 0.1796875,
+          "speed_mae": 0.21409642696380615
+        },
+        "ridge_100.0": {
+          "completion": 0.1484375,
+          "speed_mae": 0.22821392118930817
+        },
+        "tree_2": {
+          "completion": 0.125,
+          "speed_mae": 0.22572657987475395
+        },
+        "tree_4": {
+          "completion": 0.109375,
+          "speed_mae": 0.22463935708548485
+        },
+        "tree_8": {
+          "completion": 0.1171875,
+          "speed_mae": 0.22431059799504416
+        },
+        "tree_16": {
+          "completion": 0.1328125,
+          "speed_mae": 0.2263436740108004
+        },
+        "random_0.1": {
+          "completion": 0.140625,
+          "speed_mae": 0.23832938075065613
+        },
+        "random_1.0": {
+          "completion": 0.1484375,
+          "speed_mae": 0.20520874857902527
+        },
+        "random_10.0": {
+          "completion": 0.21875,
+          "speed_mae": 0.19277220964431763
+        },
+        "random_100.0": {
+          "completion": 0.21875,
+          "speed_mae": 0.20781609416007996
+        }
+      },
+      "gru_seeds": [
+        {
+          "seed": 25,
+          "epoch": 9,
+          "completion": 0.171875,
+          "speed_mae": 0.29166680574417114
+        },
+        {
+          "seed": 50,
+          "epoch": 20,
+          "completion": 0.171875,
+          "speed_mae": 0.28349632024765015
+        },
+        {
+          "seed": 75,
+          "epoch": 14,
+          "completion": 0.1640625,
+          "speed_mae": 0.28769224882125854
+        }
+      ],
+      "validation": {
+        "ridge": {
+          "completion": 0.1796875,
+          "speed_mae": 0.20256780087947845
+        },
+        "tree": {
+          "completion": 0.1328125,
+          "speed_mae": 0.22694527026009872
+        },
+        "random_feature": {
+          "completion": 0.21875,
+          "speed_mae": 0.19277220964431763
+        },
+        "nearest": {
+          "completion": 0.1484375,
+          "speed_mae": 0.34897541999816895
+        },
+        "gru_ensemble": {
+          "completion": 0.1640625,
+          "speed_mae": 0.28724804520606995
+        }
+      },
+      "primary_method": "random_feature",
+      "ridge_alpha": 1.0,
+      "tree_leaf": 16,
+      "random_alpha": 10.0
+    },
+    "random_piecewise": {
+      "trials": {
+        "ridge_0.1": {
+          "completion": 0.171875,
+          "speed_mae": 0.18716983497142792
+        },
+        "ridge_1.0": {
+          "completion": 0.1640625,
+          "speed_mae": 0.197059765458107
+        },
+        "ridge_10.0": {
+          "completion": 0.1796875,
+          "speed_mae": 0.20519021153450012
+        },
+        "ridge_100.0": {
+          "completion": 0.15625,
+          "speed_mae": 0.21938107907772064
+        },
+        "tree_2": {
+          "completion": 0.140625,
+          "speed_mae": 0.2028501753229648
+        },
+        "tree_4": {
+          "completion": 0.1484375,
+          "speed_mae": 0.2067955900671049
+        },
+        "tree_8": {
+          "completion": 0.1484375,
+          "speed_mae": 0.210720681738727
+        },
+        "tree_16": {
+          "completion": 0.140625,
+          "speed_mae": 0.2169969361705816
+        },
+        "random_0.1": {
+          "completion": 0.140625,
+          "speed_mae": 0.21809902787208557
+        },
+        "random_1.0": {
+          "completion": 0.203125,
+          "speed_mae": 0.20094099640846252
+        },
+        "random_10.0": {
+          "completion": 0.1953125,
+          "speed_mae": 0.1951918601989746
+        },
+        "random_100.0": {
+          "completion": 0.1640625,
+          "speed_mae": 0.204458087682724
+        }
+      },
+      "gru_seeds": [
+        {
+          "seed": 25,
+          "epoch": 77,
+          "completion": 0.15625,
+          "speed_mae": 0.22509899735450745
+        },
+        {
+          "seed": 50,
+          "epoch": 20,
+          "completion": 0.1640625,
+          "speed_mae": 0.2839820384979248
+        },
+        {
+          "seed": 75,
+          "epoch": 14,
+          "completion": 0.1640625,
+          "speed_mae": 0.28772372007369995
+        }
+      ],
+      "validation": {
+        "ridge": {
+          "completion": 0.1796875,
+          "speed_mae": 0.20519021153450012
+        },
+        "tree": {
+          "completion": 0.1484375,
+          "speed_mae": 0.20742487079807606
+        },
+        "random_feature": {
+          "completion": 0.203125,
+          "speed_mae": 0.20094099640846252
+        },
+        "nearest": {
+          "completion": 0.1015625,
+          "speed_mae": 0.32466602325439453
+        },
+        "gru_ensemble": {
+          "completion": 0.15625,
+          "speed_mae": 0.25462159514427185
+        }
+      },
+      "primary_method": "random_feature",
+      "ridge_alpha": 10.0,
+      "tree_leaf": 4,
+      "random_alpha": 1.0
+    }
+  },
+  "device": "cuda",
+  "elapsed_seconds": 61.32509088516235,
+  "gru_parameter_count": 42433,
+  "d_optimal_alias": "multisine"
+}

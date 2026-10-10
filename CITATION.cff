@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper when using this code or these results."
+title: "Evaluating Physical Probes for Task Decisions under Hidden Dynamics: Reproducibility Code"
+type: software
+authors:
+  - family-names: Binjolkar
+    given-names: Mayuree
+repository-code: "https://github.com/mayureeb/physical-probes-reproducibility"
+version: "1.0.0"
+license: MIT
