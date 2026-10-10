@@ -1,6 +1,6 @@
 # Physical probes: reproducibility repository
 
-Code and recorded reference results for **Evaluating Physical Probes for Task Decisions under Hidden Dynamics**, by **Mayuree Binjolkar**, Independent Researcher.
+Code and recorded reference results for **Evaluating Physical Probes for Task Decisions under Hidden Dynamics**.
 
 This release provides executable simulation, training, model/probe selection, physical evaluation, statistical analysis, and TartanDrive preprocessing pipelines for the paper's primary E023–E031 studies and reported post hoc diagnostics. Raw TartanDrive data must be downloaded from its public upstream source; it is not redistributed here. See [the results map](docs/RESULTS.md) for exact coverage and historical exclusions.
 
